@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/opt/ros/jazzy/share/rosidl_generator_rs/cmake/../../../lib/rosidl_generator_rs/rosidl_generator_rs", line 8, in <module>
+    from rosidl_generator_rs import generate_rs
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_generator_rs/__init__.py", line 20, in <module>
+    if os.environ['ROS_DISTRO'] <= 'humble':
+       ~~~~~~~~~~^^^^^^^^^^^^^^
+  File "<frozen os>", line 685, in __getitem__
+KeyError: 'ROS_DISTRO'
+gmake[2]: *** [/home/sacad/spotmicro_ws/build/champ_msgs/champ_msgs__rs/CMakeFiles/champ_msgs__rs.dir/build.make:163: rosidl_generator_rs/champ_msgs/rust/src/lib.rs] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:666: champ_msgs__rs/CMakeFiles/champ_msgs__rs.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

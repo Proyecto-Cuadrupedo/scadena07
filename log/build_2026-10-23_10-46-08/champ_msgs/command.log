@@ -1,0 +1,4 @@
+Invoking command in '/home/sacad/spotmicro_ws/build/champ_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/sacad/spotmicro_ws/build/champ_msgs -- -j16 -l16
+Invoked command in '/home/sacad/spotmicro_ws/build/champ_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/sacad/spotmicro_ws/build/champ_msgs -- -j16 -l16
+Invoking command in '/home/sacad/spotmicro_ws/build/champ_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/sacad/spotmicro_ws/build/champ_msgs
+Invoked command in '/home/sacad/spotmicro_ws/build/champ_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/sacad/spotmicro_ws/build/champ_msgs

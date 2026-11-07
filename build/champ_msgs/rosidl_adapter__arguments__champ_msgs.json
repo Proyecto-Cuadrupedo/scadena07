@@ -1,0 +1,14 @@
+{
+  "package_name": "champ_msgs",
+  "non_idl_tuples": [
+    "/home/sacad/spotmicro_ws/src/spotmicro_locomotion_ros2/champ_msgs:msg/Velocities.msg",
+    "/home/sacad/spotmicro_ws/src/spotmicro_locomotion_ros2/champ_msgs:msg/PID.msg",
+    "/home/sacad/spotmicro_ws/src/spotmicro_locomotion_ros2/champ_msgs:msg/Imu.msg",
+    "/home/sacad/spotmicro_ws/src/spotmicro_locomotion_ros2/champ_msgs:msg/Point.msg",
+    "/home/sacad/spotmicro_ws/src/spotmicro_locomotion_ros2/champ_msgs:msg/PointArray.msg",
+    "/home/sacad/spotmicro_ws/src/spotmicro_locomotion_ros2/champ_msgs:msg/Joints.msg",
+    "/home/sacad/spotmicro_ws/src/spotmicro_locomotion_ros2/champ_msgs:msg/Contacts.msg",
+    "/home/sacad/spotmicro_ws/src/spotmicro_locomotion_ros2/champ_msgs:msg/ContactsStamped.msg",
+    "/home/sacad/spotmicro_ws/src/spotmicro_locomotion_ros2/champ_msgs:msg/Pose.msg"
+  ]
+}

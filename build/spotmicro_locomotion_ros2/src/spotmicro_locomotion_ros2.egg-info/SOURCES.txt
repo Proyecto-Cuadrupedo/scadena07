@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+config/gait/gait.yaml
+config/joints/joints.yaml
+config/links/links.yaml
+launch/spotmicro_champ_control.launch.py
+resource/spotmicro_locomotion_ros2
+src/spotmicro_locomotion_ros2/__init__.py
+src/spotmicro_locomotion_ros2/spotmicro_champ_bridge.py
+src/spotmicro_locomotion_ros2.egg-info/PKG-INFO
+src/spotmicro_locomotion_ros2.egg-info/SOURCES.txt
+src/spotmicro_locomotion_ros2.egg-info/dependency_links.txt
+src/spotmicro_locomotion_ros2.egg-info/entry_points.txt
+src/spotmicro_locomotion_ros2.egg-info/requires.txt
+src/spotmicro_locomotion_ros2.egg-info/top_level.txt
+src/spotmicro_locomotion_ros2.egg-info/zip-safe

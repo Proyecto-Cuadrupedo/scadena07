@@ -1,0 +1,151 @@
+[0.034s] Invoking command in '/home/sacad/spotmicro_ws/build/champ_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/sacad/spotmicro_ws/src/spotmicro_locomotion_ros2/champ_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sacad/spotmicro_ws/install/champ_msgs
+[0.281s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.504s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.540s] -- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.550s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.778s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.858s] -- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.865s] -- Found std_msgs: 5.3.8 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.929s] -- Found geometry_msgs: 5.3.8 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.526s] -- Found ament_cmake_ros: 0.12.2 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[1.861s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.347s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.361s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[2.927s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[3.110s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.130s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[3.159s] -- Configuring done (2.9s)
+[3.314s] -- Generating done (0.1s)
+[3.334s] -- Build files have been written to: /home/sacad/spotmicro_ws/build/champ_msgs
+[3.346s] Invoked command in '/home/sacad/spotmicro_ws/build/champ_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/sacad/spotmicro_ws/src/spotmicro_locomotion_ros2/champ_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sacad/spotmicro_ws/install/champ_msgs
+[3.348s] Invoking command in '/home/sacad/spotmicro_ws/build/champ_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/sacad/spotmicro_ws/build/champ_msgs -- -j16 -l16
+[3.455s] [  1%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[3.456s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[3.478s] [  2%] Built target ament_cmake_python_symlink_champ_msgs
+[3.867s] running egg_info
+[3.869s] creating champ_msgs.egg-info
+[3.900s] writing champ_msgs.egg-info/PKG-INFO
+[3.901s] writing dependency_links to champ_msgs.egg-info/dependency_links.txt
+[3.901s] writing top-level names to champ_msgs.egg-info/top_level.txt
+[3.902s] writing manifest file 'champ_msgs.egg-info/SOURCES.txt'
+[3.990s] [  2%] Built target champ_msgs__rosidl_generator_type_description
+[4.002s] reading manifest file 'champ_msgs.egg-info/SOURCES.txt'
+[4.002s] writing manifest file 'champ_msgs.egg-info/SOURCES.txt'
+[4.016s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.042s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.053s] [  3%] Built target ament_cmake_python_build_champ_msgs_egg
+[4.987s] [  3%] Built target champ_msgs__cpp
+[5.220s] [  5%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_c.dir/rosidl_generator_c/champ_msgs/msg/detail/pid__type_support.c.o[0m
+[5.220s] [  5%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_c.dir/rosidl_generator_c/champ_msgs/msg/detail/velocities__description.c.o[0m
+[5.221s] [  6%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_c.dir/rosidl_generator_c/champ_msgs/msg/detail/velocities__type_support.c.o[0m
+[5.221s] [  7%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_c.dir/rosidl_generator_c/champ_msgs/msg/detail/velocities__functions.c.o[0m
+[5.221s] [  8%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_c.dir/rosidl_generator_c/champ_msgs/msg/detail/pid__description.c.o[0m
+[5.222s] [  8%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_c.dir/rosidl_generator_c/champ_msgs/msg/detail/pid__functions.c.o[0m
+[5.222s] [  9%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_c.dir/rosidl_generator_c/champ_msgs/msg/detail/imu__type_support.c.o[0m
+[5.223s] [ 11%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_c.dir/rosidl_generator_c/champ_msgs/msg/detail/imu__description.c.o[0m
+[5.223s] [ 11%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_c.dir/rosidl_generator_c/champ_msgs/msg/detail/point__type_support.c.o[0m
+[5.223s] [ 12%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_c.dir/rosidl_generator_c/champ_msgs/msg/detail/point__description.c.o[0m
+[5.225s] [ 13%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_c.dir/rosidl_generator_c/champ_msgs/msg/detail/imu__functions.c.o[0m
+[5.225s] [ 14%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_c.dir/rosidl_generator_c/champ_msgs/msg/detail/point_array__functions.c.o[0m
+[5.225s] [ 15%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_c.dir/rosidl_generator_c/champ_msgs/msg/detail/point__functions.c.o[0m
+[5.226s] [ 15%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_c.dir/rosidl_generator_c/champ_msgs/msg/detail/point_array__description.c.o[0m
+[5.231s] [ 16%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_c.dir/rosidl_generator_c/champ_msgs/msg/detail/point_array__type_support.c.o[0m
+[6.147s] [ 17%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_c.dir/rosidl_generator_c/champ_msgs/msg/detail/contacts__functions.c.o[0m
+[6.147s] [ 18%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_c.dir/rosidl_generator_c/champ_msgs/msg/detail/joints__type_support.c.o[0m
+[6.147s] [ 19%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_c.dir/rosidl_generator_c/champ_msgs/msg/detail/joints__description.c.o[0m
+[6.148s] [ 20%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_c.dir/rosidl_generator_c/champ_msgs/msg/detail/contacts__description.c.o[0m
+[6.148s] [ 21%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_c.dir/rosidl_generator_c/champ_msgs/msg/detail/joints__functions.c.o[0m
+[6.149s] [ 21%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_c.dir/rosidl_generator_c/champ_msgs/msg/detail/contacts__type_support.c.o[0m
+[6.158s] [ 22%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_c.dir/rosidl_generator_c/champ_msgs/msg/detail/contacts_stamped__description.c.o[0m
+[6.159s] [ 23%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_c.dir/rosidl_generator_c/champ_msgs/msg/detail/contacts_stamped__functions.c.o[0m
+[6.163s] [ 24%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_c.dir/rosidl_generator_c/champ_msgs/msg/detail/contacts_stamped__type_support.c.o[0m
+[6.171s] [ 25%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_c.dir/rosidl_generator_c/champ_msgs/msg/detail/pose__description.c.o[0m
+[6.173s] [ 27%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_c.dir/rosidl_generator_c/champ_msgs/msg/detail/pose__functions.c.o[0m
+[6.174s] [ 27%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_c.dir/rosidl_generator_c/champ_msgs/msg/detail/pose__type_support.c.o[0m
+[6.269s] [ 27%] [32m[1mLinking C shared library libchamp_msgs__rosidl_generator_c.so[0m
+[6.487s] [ 27%] Built target champ_msgs__rosidl_generator_c
+[6.513s] [ 28%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[6.513s] [ 28%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[6.514s] [ 29%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[6.514s] [ 30%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[6.515s] [ 31%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[6.515s] [ 32%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[7.187s] [ 33%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/champ_msgs/msg/imu__type_support.cpp.o[0m
+[7.192s] [ 35%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/champ_msgs/msg/point_array__type_support.cpp.o[0m
+[7.192s] [ 35%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/champ_msgs/msg/pid__type_support.cpp.o[0m
+[7.193s] [ 36%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/champ_msgs/msg/velocities__type_support.cpp.o[0m
+[7.195s] [ 37%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/champ_msgs/msg/point__type_support.cpp.o[0m
+[7.195s] [ 37%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/champ_msgs/msg/pose__type_support.cpp.o[0m
+[7.196s] [ 38%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/champ_msgs/msg/contacts__type_support.cpp.o[0m
+[7.196s] [ 39%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/champ_msgs/msg/joints__type_support.cpp.o[0m
+[7.196s] [ 40%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/champ_msgs/msg/contacts_stamped__type_support.cpp.o[0m
+[7.222s] [ 42%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/champ_msgs/msg/velocities__type_support.cpp.o[0m
+[7.222s] [ 42%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/champ_msgs/msg/pid__type_support.cpp.o[0m
+[7.591s] [ 43%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/champ_msgs/msg/detail/velocities__type_support.c.o[0m
+[7.591s] [ 44%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/champ_msgs/msg/detail/velocities__type_support.cpp.o[0m
+[7.759s] [ 44%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/champ_msgs/msg/detail/dds_fastrtps/velocities__type_support.cpp.o[0m
+[7.821s] [ 45%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/champ_msgs/msg/detail/velocities__type_support_c.cpp.o[0m
+[8.296s] [ 46%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/champ_msgs/msg/detail/pid__type_support.c.o[0m
+[8.357s] [ 48%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/champ_msgs/msg/detail/imu__type_support_c.cpp.o[0m
+[8.357s] [ 48%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/champ_msgs/msg/imu__type_support.cpp.o[0m
+[8.361s] [ 49%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/champ_msgs/msg/detail/pid__type_support.cpp.o[0m
+[8.361s] [ 49%] [32m[1mLinking CXX shared library libchamp_msgs__rosidl_typesupport_c.so[0m
+[8.361s] [ 51%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/champ_msgs/msg/detail/pid__type_support_c.cpp.o[0m
+[8.361s] [ 51%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/champ_msgs/msg/detail/imu__type_support.c.o[0m
+[8.361s] [ 52%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/champ_msgs/msg/detail/imu__type_support.cpp.o[0m
+[8.362s] [ 53%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/champ_msgs/msg/detail/dds_fastrtps/pid__type_support.cpp.o[0m
+[8.362s] [ 54%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/champ_msgs/msg/detail/dds_fastrtps/imu__type_support.cpp.o[0m
+[8.393s] [ 55%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/champ_msgs/msg/detail/point__type_support_c.cpp.o[0m
+[8.468s] [ 56%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/champ_msgs/msg/detail/point__type_support.c.o[0m
+[8.565s] [ 57%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/champ_msgs/msg/detail/point_array__type_support.c.o[0m
+[8.600s] [ 57%] Built target champ_msgs__rosidl_typesupport_c
+[8.630s] [ 58%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/champ_msgs/msg/detail/point__type_support.cpp.o[0m
+[8.666s] [ 58%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/champ_msgs/msg/detail/joints__type_support.c.o[0m
+[8.780s] [ 59%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/champ_msgs/msg/detail/contacts__type_support.c.o[0m
+[8.893s] [ 60%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/champ_msgs/msg/detail/contacts_stamped__type_support.c.o[0m
+[9.016s] [ 61%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/champ_msgs/msg/detail/pose__type_support.c.o[0m
+[9.088s] [ 62%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/champ_msgs/msg/point__type_support.cpp.o[0m
+[9.116s] [ 63%] [32m[1mLinking C shared library libchamp_msgs__rosidl_typesupport_introspection_c.so[0m
+[9.129s] [ 64%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/champ_msgs/msg/detail/dds_fastrtps/point__type_support.cpp.o[0m
+[9.136s] [ 64%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/champ_msgs/msg/detail/point_array__type_support_c.cpp.o[0m
+[9.200s] [ 65%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/champ_msgs/msg/detail/point_array__type_support.cpp.o[0m
+[9.200s] [ 66%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/champ_msgs/msg/point_array__type_support.cpp.o[0m
+[9.202s] [ 67%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/champ_msgs/msg/detail/joints__type_support.cpp.o[0m
+[9.346s] [ 67%] Built target champ_msgs__rosidl_typesupport_introspection_c
+[9.374s] [ 68%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/champ_msgs/msg/detail/joints__type_support_c.cpp.o[0m
+[9.468s] [ 69%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/champ_msgs/msg/detail/dds_fastrtps/point_array__type_support.cpp.o[0m
+[9.516s] [ 71%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/champ_msgs/msg/detail/contacts__type_support_c.cpp.o[0m
+[9.517s] [ 71%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/champ_msgs/msg/detail/contacts__type_support.cpp.o[0m
+[9.547s] [ 72%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/champ_msgs/msg/detail/contacts_stamped__type_support.cpp.o[0m
+[9.582s] [ 73%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/champ_msgs/msg/joints__type_support.cpp.o[0m
+[9.617s] [ 74%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/champ_msgs/msg/detail/dds_fastrtps/joints__type_support.cpp.o[0m
+[9.656s] [ 75%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/champ_msgs/msg/detail/pose__type_support.cpp.o[0m
+[9.698s] [ 76%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/champ_msgs/msg/detail/contacts_stamped__type_support_c.cpp.o[0m
+[9.701s] Traceback (most recent call last):
+[9.701s]   File "/opt/ros/jazzy/share/rosidl_generator_rs/cmake/../../../lib/rosidl_generator_rs/rosidl_generator_rs", line 8, in <module>
+[9.701s]     from rosidl_generator_rs import generate_rs
+[9.708s]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_generator_rs/__init__.py", line 20, in <module>
+[9.708s]     if os.environ['ROS_DISTRO'] <= 'humble':
+[9.709s]        ~~~~~~~~~~^^^^^^^^^^^^^^
+[9.709s]   File "<frozen os>", line 685, in __getitem__
+[9.709s] KeyError: 'ROS_DISTRO'
+[9.792s] gmake[2]: *** [/home/sacad/spotmicro_ws/build/champ_msgs/champ_msgs__rs/CMakeFiles/champ_msgs__rs.dir/build.make:163: rosidl_generator_rs/champ_msgs/rust/src/lib.rs] Error 1
+[9.793s] gmake[1]: *** [CMakeFiles/Makefile2:666: champ_msgs__rs/CMakeFiles/champ_msgs__rs.dir/all] Error 2
+[9.793s] gmake[1]: *** Waiting for unfinished jobs....
+[9.816s] [ 77%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/champ_msgs/msg/detail/dds_fastrtps/contacts__type_support.cpp.o[0m
+[9.890s] [ 78%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/champ_msgs/msg/detail/pose__type_support_c.cpp.o[0m
+[9.962s] [ 79%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/champ_msgs/msg/detail/dds_fastrtps/contacts_stamped__type_support.cpp.o[0m
+[10.008s] [ 79%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/champ_msgs/msg/detail/dds_fastrtps/pose__type_support.cpp.o[0m
+[10.031s] [ 80%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/champ_msgs/msg/contacts__type_support.cpp.o[0m
+[10.258s] [ 80%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/champ_msgs/msg/contacts_stamped__type_support.cpp.o[0m
+[10.306s] [ 81%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/champ_msgs/msg/pose__type_support.cpp.o[0m
+[10.490s] [ 81%] [32m[1mLinking CXX shared library libchamp_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[10.769s] [ 81%] Built target champ_msgs__rosidl_typesupport_introspection_cpp
+[10.893s] [ 82%] [32m[1mLinking CXX shared library libchamp_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[10.902s] [ 83%] [32m[1mLinking CXX shared library libchamp_msgs__rosidl_typesupport_cpp.so[0m
+[10.996s] [ 84%] [32m[1mLinking CXX shared library libchamp_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[11.058s] [ 84%] Built target champ_msgs__rosidl_typesupport_cpp
+[11.076s] [ 84%] Built target champ_msgs__rosidl_typesupport_fastrtps_c
+[11.217s] [ 84%] Built target champ_msgs__rosidl_typesupport_fastrtps_cpp
+[11.219s] gmake: *** [Makefile:146: all] Error 2
+[11.222s] Invoked command in '/home/sacad/spotmicro_ws/build/champ_msgs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/sacad/spotmicro_ws/build/champ_msgs -- -j16 -l16

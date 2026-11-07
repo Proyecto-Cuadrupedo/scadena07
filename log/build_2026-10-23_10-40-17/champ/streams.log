@@ -1,0 +1,32 @@
+[0.028s] Invoking command in '/home/sacad/spotmicro_ws/build/champ': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/sacad/spotmicro_ws/src/spotmicro_locomotion_ros2/champ -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sacad/spotmicro_ws/install/champ
+[0.083s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.380s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.554s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.683s] -- Found rclcpp: 28.1.22 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.966s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.008s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.062s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.115s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.334s] -- Found rmw_implementation_cmake: 7.3.4 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.345s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.580s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.782s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.946s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.443s] [31mCMake Error at CMakeLists.txt:41 (find_package):
+[3.443s]   By not providing "Findament_lint_auto.cmake" in CMAKE_MODULE_PATH this
+[3.443s]   project has asked CMake to find a package configuration file provided by
+[3.444s]   "ament_lint_auto", but CMake did not find one.
+[3.444s] 
+[3.444s]   Could not find a package configuration file provided by "ament_lint_auto"
+[3.444s]   with any of the following names:
+[3.444s] 
+[3.444s]     ament_lint_autoConfig.cmake
+[3.444s]     ament_lint_auto-config.cmake
+[3.444s] 
+[3.445s]   Add the installation prefix of "ament_lint_auto" to CMAKE_PREFIX_PATH or
+[3.445s]   set "ament_lint_auto_DIR" to a directory containing one of the above files.
+[3.445s]   If "ament_lint_auto" provides a separate development package or SDK, be
+[3.445s]   sure it has been installed.
+[3.445s] 
+[3.445s] [0m
+[3.445s] -- Configuring incomplete, errors occurred!

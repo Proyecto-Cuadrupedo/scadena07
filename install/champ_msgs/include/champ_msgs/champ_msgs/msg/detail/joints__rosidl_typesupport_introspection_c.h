@@ -1,0 +1,1 @@
+/home/sacad/spotmicro_ws/build/champ_msgs/rosidl_typesupport_introspection_c/champ_msgs/msg/detail/joints__rosidl_typesupport_introspection_c.h

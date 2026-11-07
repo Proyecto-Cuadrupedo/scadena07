@@ -1,0 +1,31 @@
+running develop
+running egg_info
+creating src/spotmicro_locomotion_ros2.egg-info
+writing src/spotmicro_locomotion_ros2.egg-info/PKG-INFO
+writing dependency_links to src/spotmicro_locomotion_ros2.egg-info/dependency_links.txt
+writing entry points to src/spotmicro_locomotion_ros2.egg-info/entry_points.txt
+writing requirements to src/spotmicro_locomotion_ros2.egg-info/requires.txt
+writing top-level names to src/spotmicro_locomotion_ros2.egg-info/top_level.txt
+writing manifest file 'src/spotmicro_locomotion_ros2.egg-info/SOURCES.txt'
+reading manifest file 'src/spotmicro_locomotion_ros2.egg-info/SOURCES.txt'
+writing manifest file 'src/spotmicro_locomotion_ros2.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/sacad/spotmicro_ws/install/spotmicro_locomotion_ros2/lib/python3.12/site-packages/spotmicro-locomotion-ros2.egg-link (link to src)
+Installing spotmicro_champ_bridge script to /home/sacad/spotmicro_ws/install/spotmicro_locomotion_ros2/lib/spotmicro_locomotion_ros2
+
+Installed /home/sacad/spotmicro_ws/build/spotmicro_locomotion_ros2/src
+running symlink_data
+creating /home/sacad/spotmicro_ws/install/spotmicro_locomotion_ros2/share/ament_index
+creating /home/sacad/spotmicro_ws/install/spotmicro_locomotion_ros2/share/ament_index/resource_index
+creating /home/sacad/spotmicro_ws/install/spotmicro_locomotion_ros2/share/ament_index/resource_index/packages
+symbolically linking /home/sacad/spotmicro_ws/build/spotmicro_locomotion_ros2/resource/spotmicro_locomotion_ros2 -> /home/sacad/spotmicro_ws/install/spotmicro_locomotion_ros2/share/ament_index/resource_index/packages
+symbolically linking /home/sacad/spotmicro_ws/build/spotmicro_locomotion_ros2/package.xml -> /home/sacad/spotmicro_ws/install/spotmicro_locomotion_ros2/share/spotmicro_locomotion_ros2
+creating /home/sacad/spotmicro_ws/install/spotmicro_locomotion_ros2/share/spotmicro_locomotion_ros2/config
+creating /home/sacad/spotmicro_ws/install/spotmicro_locomotion_ros2/share/spotmicro_locomotion_ros2/config/gait
+symbolically linking /home/sacad/spotmicro_ws/build/spotmicro_locomotion_ros2/config/gait/gait.yaml -> /home/sacad/spotmicro_ws/install/spotmicro_locomotion_ros2/share/spotmicro_locomotion_ros2/config/gait
+creating /home/sacad/spotmicro_ws/install/spotmicro_locomotion_ros2/share/spotmicro_locomotion_ros2/config/joints
+symbolically linking /home/sacad/spotmicro_ws/build/spotmicro_locomotion_ros2/config/joints/joints.yaml -> /home/sacad/spotmicro_ws/install/spotmicro_locomotion_ros2/share/spotmicro_locomotion_ros2/config/joints
+creating /home/sacad/spotmicro_ws/install/spotmicro_locomotion_ros2/share/spotmicro_locomotion_ros2/config/links
+symbolically linking /home/sacad/spotmicro_ws/build/spotmicro_locomotion_ros2/config/links/links.yaml -> /home/sacad/spotmicro_ws/install/spotmicro_locomotion_ros2/share/spotmicro_locomotion_ros2/config/links
+creating /home/sacad/spotmicro_ws/install/spotmicro_locomotion_ros2/share/spotmicro_locomotion_ros2/launch
+symbolically linking /home/sacad/spotmicro_ws/build/spotmicro_locomotion_ros2/launch/spotmicro_champ_control.launch.py -> /home/sacad/spotmicro_ws/install/spotmicro_locomotion_ros2/share/spotmicro_locomotion_ros2/launch

@@ -1,0 +1,23 @@
+[0.028s] Invoking command in '/home/sacad/spotmicro_ws/build/champ_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/sacad/spotmicro_ws/src/spotmicro_locomotion_ros2/champ_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sacad/spotmicro_ws/install/champ_msgs
+[0.073s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.370s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.543s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.870s] [31mCMake Error at CMakeLists.txt:5 (find_package):
+[1.870s]   By not providing "Findrosidl_default_generators.cmake" in CMAKE_MODULE_PATH
+[1.870s]   this project has asked CMake to find a package configuration file provided
+[1.870s]   by "rosidl_default_generators", but CMake did not find one.
+[1.870s] 
+[1.871s]   Could not find a package configuration file provided by
+[1.871s]   "rosidl_default_generators" with any of the following names:
+[1.871s] 
+[1.871s]     rosidl_default_generatorsConfig.cmake
+[1.871s]     rosidl_default_generators-config.cmake
+[1.871s] 
+[1.871s]   Add the installation prefix of "rosidl_default_generators" to
+[1.872s]   CMAKE_PREFIX_PATH or set "rosidl_default_generators_DIR" to a directory
+[1.872s]   containing one of the above files.  If "rosidl_default_generators" provides
+[1.872s]   a separate development package or SDK, be sure it has been installed.
+[1.872s] 
+[1.873s] [0m
+[1.873s] -- Configuring incomplete, errors occurred!
+[1.876s] Invoked command in '/home/sacad/spotmicro_ws/build/champ_msgs' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/sacad/spotmicro_ws/src/spotmicro_locomotion_ros2/champ_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sacad/spotmicro_ws/install/champ_msgs

@@ -1,0 +1,30 @@
+[0.029s] Invoking command in '/home/sacad/spotmicro_ws/build/champ': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/sacad/spotmicro_ws/src/spotmicro_locomotion_ros2/champ -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sacad/spotmicro_ws/install/champ
+[0.062s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.446s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.459s] -- Found rclcpp: 28.1.22 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.646s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.662s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.682s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.704s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.820s] -- Found rmw_implementation_cmake: 7.3.4 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.822s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.106s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.520s] [31mCMake Error at CMakeLists.txt:41 (find_package):
+[2.521s]   By not providing "Findament_lint_auto.cmake" in CMAKE_MODULE_PATH this
+[2.521s]   project has asked CMake to find a package configuration file provided by
+[2.521s]   "ament_lint_auto", but CMake did not find one.
+[2.521s] 
+[2.521s]   Could not find a package configuration file provided by "ament_lint_auto"
+[2.521s]   with any of the following names:
+[2.521s] 
+[2.521s]     ament_lint_autoConfig.cmake
+[2.521s]     ament_lint_auto-config.cmake
+[2.522s] 
+[2.522s]   Add the installation prefix of "ament_lint_auto" to CMAKE_PREFIX_PATH or
+[2.522s]   set "ament_lint_auto_DIR" to a directory containing one of the above files.
+[2.522s]   If "ament_lint_auto" provides a separate development package or SDK, be
+[2.522s]   sure it has been installed.
+[2.523s] 
+[2.523s] [0m
+[2.523s] -- Configuring incomplete, errors occurred!
+[2.533s] Invoked command in '/home/sacad/spotmicro_ws/build/champ' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/sacad/spotmicro_ws/src/spotmicro_locomotion_ros2/champ -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sacad/spotmicro_ws/install/champ

@@ -1,0 +1,91 @@
+[0.240s] Invoking command in '/home/sacad/spotmicro_ws/build/champ_base': AMENT_PREFIX_PATH=/home/sacad/spotmicro_ws/install/champ_msgs:/home/sacad/spotmicro_ws/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sacad/spotmicro_ws/install/champ_msgs:/home/sacad/spotmicro_ws/install/champ:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/sacad/spotmicro_ws/install/champ_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sacad/spotmicro_ws/install/champ_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/sacad/spotmicro_ws/src/spotmicro_locomotion_ros2/champ_base -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sacad/spotmicro_ws/install/champ_base
+[0.517s] -- The C compiler identification is GNU 13.3.0
+[1.233s] -- The CXX compiler identification is GNU 13.3.0
+[1.841s] -- Detecting C compiler ABI info
+[2.182s] -- Detecting C compiler ABI info - done
+[2.196s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.207s] -- Detecting C compile features
+[2.208s] -- Detecting C compile features - done
+[2.306s] -- Detecting CXX compiler ABI info
+[2.626s] -- Detecting CXX compiler ABI info - done
+[2.640s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.640s] -- Detecting CXX compile features
+[2.641s] -- Detecting CXX compile features - done
+[2.660s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.930s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.051s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.164s] -- Found rclcpp: 28.1.22 (/opt/ros/jazzy/share/rclcpp/cmake)
+[3.419s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[3.451s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[3.498s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.539s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.715s] -- Found rmw_implementation_cmake: 7.3.4 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[3.723s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[4.051s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[4.249s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[4.381s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.699s] -- Found rclpy: 7.1.12 (/opt/ros/jazzy/share/rclpy/cmake)
+[4.700s] -- Found champ_msgs: 0.1.0 (/home/sacad/spotmicro_ws/install/champ_msgs/share/champ_msgs/cmake)
+[4.819s] -- Found visualization_msgs: 5.3.8 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+[4.981s] -- Found trajectory_msgs: 5.3.8 (/opt/ros/jazzy/share/trajectory_msgs/cmake)
+[5.132s] -- Found nav_msgs: 5.3.8 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[5.195s] -- Found tf2_ros: 0.36.23 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[5.639s] -- Found urdf: 2.10.1 (/opt/ros/jazzy/share/urdf/cmake)
+[5.723s] -- Found champ: 0.1.0 (/home/sacad/spotmicro_ws/install/champ/share/champ/cmake)
+[5.926s] -- Configuring done (5.7s)
+[6.025s] -- Generating done (0.1s)
+[6.047s] -- Build files have been written to: /home/sacad/spotmicro_ws/build/champ_base
+[6.068s] Invoked command in '/home/sacad/spotmicro_ws/build/champ_base' returned '0': AMENT_PREFIX_PATH=/home/sacad/spotmicro_ws/install/champ_msgs:/home/sacad/spotmicro_ws/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sacad/spotmicro_ws/install/champ_msgs:/home/sacad/spotmicro_ws/install/champ:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/sacad/spotmicro_ws/install/champ_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sacad/spotmicro_ws/install/champ_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/sacad/spotmicro_ws/src/spotmicro_locomotion_ros2/champ_base -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sacad/spotmicro_ws/install/champ_base
+[6.070s] Invoking command in '/home/sacad/spotmicro_ws/build/champ_base': AMENT_PREFIX_PATH=/home/sacad/spotmicro_ws/install/champ_msgs:/home/sacad/spotmicro_ws/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sacad/spotmicro_ws/install/champ_msgs:/home/sacad/spotmicro_ws/install/champ:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/sacad/spotmicro_ws/install/champ_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sacad/spotmicro_ws/install/champ_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sacad/spotmicro_ws/build/champ_base -- -j16 -l16
+[6.181s] [  8%] [32mBuilding CXX object CMakeFiles/quadruped_controller.dir/src/quadruped_controller.cpp.o[0m
+[6.181s] [ 16%] [32mBuilding CXX object CMakeFiles/message_relay.dir/src/message_relay.cpp.o[0m
+[6.181s] [ 25%] [32mBuilding CXX object CMakeFiles/state_estimation.dir/src/state_estimation.cpp.o[0m
+[28.232s] [ 33%] [32m[1mLinking CXX shared library libquadruped_controller.so[0m
+[29.330s] [ 33%] Built target quadruped_controller
+[29.375s] [ 41%] [32mBuilding CXX object CMakeFiles/quadruped_controller_node.dir/src/quadruped_controller_node.cpp.o[0m
+[34.471s] [ 50%] [32m[1mLinking CXX shared library libmessage_relay.so[0m
+[35.563s] [ 58%] [32m[1mLinking CXX executable quadruped_controller_node[0m
+[35.637s] [ 58%] Built target message_relay
+[35.680s] [ 66%] [32mBuilding CXX object CMakeFiles/message_relay_node.dir/src/message_relay_node.cpp.o[0m
+[36.188s] [ 66%] Built target quadruped_controller_node
+[37.605s] [ 75%] [32m[1mLinking CXX shared library libstate_estimation.so[0m
+[38.834s] [ 75%] Built target state_estimation
+[38.881s] [ 83%] [32mBuilding CXX object CMakeFiles/state_estimation_node.dir/src/state_estimation_node.cpp.o[0m
+[41.872s] [ 91%] [32m[1mLinking CXX executable message_relay_node[0m
+[42.584s] [ 91%] Built target message_relay_node
+[47.527s] [100%] [32m[1mLinking CXX executable state_estimation_node[0m
+[48.284s] [100%] Built target state_estimation_node
+[48.304s] Invoked command in '/home/sacad/spotmicro_ws/build/champ_base' returned '0': AMENT_PREFIX_PATH=/home/sacad/spotmicro_ws/install/champ_msgs:/home/sacad/spotmicro_ws/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sacad/spotmicro_ws/install/champ_msgs:/home/sacad/spotmicro_ws/install/champ:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/sacad/spotmicro_ws/install/champ_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sacad/spotmicro_ws/install/champ_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sacad/spotmicro_ws/build/champ_base -- -j16 -l16
+[48.306s] Invoking command in '/home/sacad/spotmicro_ws/build/champ_base': AMENT_PREFIX_PATH=/home/sacad/spotmicro_ws/install/champ_msgs:/home/sacad/spotmicro_ws/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sacad/spotmicro_ws/install/champ_msgs:/home/sacad/spotmicro_ws/install/champ:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/sacad/spotmicro_ws/install/champ_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sacad/spotmicro_ws/install/champ_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/sacad/spotmicro_ws/build/champ_base
+[48.322s] -- Install configuration: ""
+[48.323s] -- Execute custom install script
+[48.329s] -- Symlinking: /home/sacad/spotmicro_ws/install/champ_base/share/champ_base/config/ekf/base_to_footprint.yaml
+[48.351s] -- Symlinking: /home/sacad/spotmicro_ws/install/champ_base/share/champ_base/config/ekf/footprint_to_odom.yaml
+[48.370s] -- Symlinking: /home/sacad/spotmicro_ws/install/champ_base/share/champ_base/config/velocity_smoother/velocity_smoother.yaml
+[48.390s] -- Symlinking: /home/sacad/spotmicro_ws/install/champ_base/lib/libquadruped_controller.so
+[48.410s] -- Symlinking: /home/sacad/spotmicro_ws/install/champ_base/bin/quadruped_controller_node
+[48.428s] -- Symlinking: /home/sacad/spotmicro_ws/install/champ_base/lib/libmessage_relay.so
+[48.445s] -- Symlinking: /home/sacad/spotmicro_ws/install/champ_base/bin/message_relay_node
+[48.464s] -- Symlinking: /home/sacad/spotmicro_ws/install/champ_base/lib/libstate_estimation.so
+[48.482s] -- Symlinking: /home/sacad/spotmicro_ws/install/champ_base/bin/state_estimation_node
+[48.501s] -- Symlinking: /home/sacad/spotmicro_ws/install/champ_base/lib/champ_base/quadruped_controller_node
+[48.519s] -- Symlinking: /home/sacad/spotmicro_ws/install/champ_base/lib/champ_base/message_relay_node
+[48.538s] -- Symlinking: /home/sacad/spotmicro_ws/install/champ_base/lib/champ_base/state_estimation_node
+[48.560s] -- Symlinking: /home/sacad/spotmicro_ws/install/champ_base/share/ament_index/resource_index/package_run_dependencies/champ_base
+[48.578s] -- Symlinking: /home/sacad/spotmicro_ws/install/champ_base/share/ament_index/resource_index/parent_prefix_path/champ_base
+[48.597s] -- Symlinking: /home/sacad/spotmicro_ws/install/champ_base/share/champ_base/environment/ament_prefix_path.sh
+[48.615s] -- Symlinking: /home/sacad/spotmicro_ws/install/champ_base/share/champ_base/environment/ament_prefix_path.dsv
+[48.635s] -- Symlinking: /home/sacad/spotmicro_ws/install/champ_base/share/champ_base/environment/path.sh
+[48.655s] -- Symlinking: /home/sacad/spotmicro_ws/install/champ_base/share/champ_base/environment/path.dsv
+[48.675s] -- Symlinking: /home/sacad/spotmicro_ws/install/champ_base/share/champ_base/local_setup.bash
+[48.694s] -- Symlinking: /home/sacad/spotmicro_ws/install/champ_base/share/champ_base/local_setup.sh
+[48.712s] -- Symlinking: /home/sacad/spotmicro_ws/install/champ_base/share/champ_base/local_setup.zsh
+[48.730s] -- Symlinking: /home/sacad/spotmicro_ws/install/champ_base/share/champ_base/local_setup.dsv
+[48.749s] -- Symlinking: /home/sacad/spotmicro_ws/install/champ_base/share/champ_base/package.dsv
+[48.768s] -- Symlinking: /home/sacad/spotmicro_ws/install/champ_base/share/ament_index/resource_index/packages/champ_base
+[48.790s] -- Symlinking: /home/sacad/spotmicro_ws/install/champ_base/share/champ_base/cmake/ament_cmake_export_include_directories-extras.cmake
+[48.810s] -- Symlinking: /home/sacad/spotmicro_ws/install/champ_base/share/champ_base/cmake/ament_cmake_export_dependencies-extras.cmake
+[48.831s] -- Symlinking: /home/sacad/spotmicro_ws/install/champ_base/share/champ_base/cmake/champ_baseConfig.cmake
+[48.852s] -- Symlinking: /home/sacad/spotmicro_ws/install/champ_base/share/champ_base/cmake/champ_baseConfig-version.cmake
+[48.875s] -- Symlinking: /home/sacad/spotmicro_ws/install/champ_base/share/champ_base/package.xml
+[48.900s] Invoked command in '/home/sacad/spotmicro_ws/build/champ_base' returned '0': AMENT_PREFIX_PATH=/home/sacad/spotmicro_ws/install/champ_msgs:/home/sacad/spotmicro_ws/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sacad/spotmicro_ws/install/champ_msgs:/home/sacad/spotmicro_ws/install/champ:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy LD_LIBRARY_PATH=/home/sacad/spotmicro_ws/install/champ_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sacad/spotmicro_ws/install/champ_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/sacad/spotmicro_ws/build/champ_base

@@ -1,0 +1,149 @@
+[0.000000] (-) TimerEvent: {}
+[0.000527] (champ) JobQueued: {'identifier': 'champ', 'dependencies': OrderedDict()}
+[0.000648] (champ_msgs) JobQueued: {'identifier': 'champ_msgs', 'dependencies': OrderedDict()}
+[0.000727] (spotmicro_description) JobQueued: {'identifier': 'spotmicro_description', 'dependencies': OrderedDict()}
+[0.000796] (champ_base) JobQueued: {'identifier': 'champ_base', 'dependencies': OrderedDict({'champ': '/home/sacad/spotmicro_ws/install/champ', 'champ_msgs': '/home/sacad/spotmicro_ws/install/champ_msgs'})}
+[0.000872] (spotmicro_locomotion_ros2) JobQueued: {'identifier': 'spotmicro_locomotion_ros2', 'dependencies': OrderedDict({'champ': '/home/sacad/spotmicro_ws/install/champ', 'champ_msgs': '/home/sacad/spotmicro_ws/install/champ_msgs', 'spotmicro_description': '/home/sacad/spotmicro_ws/install/spotmicro_description', 'champ_base': '/home/sacad/spotmicro_ws/install/champ_base'})}
+[0.002148] (champ) JobStarted: {'identifier': 'champ'}
+[0.010862] (champ_msgs) JobStarted: {'identifier': 'champ_msgs'}
+[0.016027] (spotmicro_description) JobStarted: {'identifier': 'spotmicro_description'}
+[0.021596] (champ) JobProgress: {'identifier': 'champ', 'progress': 'cmake'}
+[0.025895] (champ) Command: {'cmd': ['/usr/bin/cmake', '/home/sacad/spotmicro_ws/src/spotmicro_locomotion_ros2/champ', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/sacad/spotmicro_ws/install/champ'], 'cwd': '/home/sacad/spotmicro_ws/build/champ', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'sacad', 'SHLVL': '1', 'WT_PROFILE_ID': '{61c54bbd-c2c6-5271-96e7-009a87ff44bf}', 'HOME': '/home/sacad', 'OLDPWD': '/home/sacad/spotmicro_ws/src', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'LOGNAME': 'sacad', 'NAME': 'ASMECH', 'WSL_INTEROP': '/run/WSL/664_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'TERM': 'xterm-256color', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/usr/lib/linux-tools/6.18.54.1-microsoft-standard-WSL2/bin:/mnt/c/Program Files/Eclipse Adoptium/jdk-17.0.16.8-hotspot/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/WSL/:/mnt/c/Users/sacad/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/sacad/AppData/Local/Python/bin:/snap/bin', 'WT_SESSION': '59146605-3dbe-47e3-a1c8-155b2d2d4747', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'PERF_EXEC_PATH': '/usr/lib/linux-tools/6.18.54.1-microsoft-standard-WSL2/libexec/perf-core', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/sacad/spotmicro_ws/build/champ', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}), 'shell': False}
+[0.032916] (champ_msgs) JobProgress: {'identifier': 'champ_msgs', 'progress': 'cmake'}
+[0.038087] (champ_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/sacad/spotmicro_ws/src/spotmicro_locomotion_ros2/champ_msgs', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/sacad/spotmicro_ws/install/champ_msgs'], 'cwd': '/home/sacad/spotmicro_ws/build/champ_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'sacad', 'SHLVL': '1', 'WT_PROFILE_ID': '{61c54bbd-c2c6-5271-96e7-009a87ff44bf}', 'HOME': '/home/sacad', 'OLDPWD': '/home/sacad/spotmicro_ws/src', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'LOGNAME': 'sacad', 'NAME': 'ASMECH', 'WSL_INTEROP': '/run/WSL/664_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'TERM': 'xterm-256color', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/usr/lib/linux-tools/6.18.54.1-microsoft-standard-WSL2/bin:/mnt/c/Program Files/Eclipse Adoptium/jdk-17.0.16.8-hotspot/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/WSL/:/mnt/c/Users/sacad/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/sacad/AppData/Local/Python/bin:/snap/bin', 'WT_SESSION': '59146605-3dbe-47e3-a1c8-155b2d2d4747', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'PERF_EXEC_PATH': '/usr/lib/linux-tools/6.18.54.1-microsoft-standard-WSL2/libexec/perf-core', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/sacad/spotmicro_ws/build/champ_msgs', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}), 'shell': False}
+[0.044015] (spotmicro_description) JobProgress: {'identifier': 'spotmicro_description', 'progress': 'cmake'}
+[0.048630] (spotmicro_description) Command: {'cmd': ['/usr/bin/cmake', '/home/sacad/spotmicro_ws/src/spotmicro_description', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/sacad/spotmicro_ws/install/spotmicro_description'], 'cwd': '/home/sacad/spotmicro_ws/build/spotmicro_description', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'sacad', 'SHLVL': '1', 'WT_PROFILE_ID': '{61c54bbd-c2c6-5271-96e7-009a87ff44bf}', 'HOME': '/home/sacad', 'OLDPWD': '/home/sacad/spotmicro_ws/src', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'LOGNAME': 'sacad', 'NAME': 'ASMECH', 'WSL_INTEROP': '/run/WSL/664_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'TERM': 'xterm-256color', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/usr/lib/linux-tools/6.18.54.1-microsoft-standard-WSL2/bin:/mnt/c/Program Files/Eclipse Adoptium/jdk-17.0.16.8-hotspot/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/WSL/:/mnt/c/Users/sacad/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/sacad/AppData/Local/Python/bin:/snap/bin', 'WT_SESSION': '59146605-3dbe-47e3-a1c8-155b2d2d4747', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'PERF_EXEC_PATH': '/usr/lib/linux-tools/6.18.54.1-microsoft-standard-WSL2/libexec/perf-core', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/sacad/spotmicro_ws/build/spotmicro_description', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}), 'shell': False}
+[0.099246] (-) TimerEvent: {}
+[0.199816] (-) TimerEvent: {}
+[0.300365] (-) TimerEvent: {}
+[0.400922] (-) TimerEvent: {}
+[0.501471] (-) TimerEvent: {}
+[0.602188] (-) TimerEvent: {}
+[0.702820] (-) TimerEvent: {}
+[0.773801] (champ) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.774492] (champ_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.774896] (spotmicro_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.802994] (-) TimerEvent: {}
+[0.903545] (-) TimerEvent: {}
+[1.003928] (-) TimerEvent: {}
+[1.104359] (-) TimerEvent: {}
+[1.204801] (-) TimerEvent: {}
+[1.305288] (-) TimerEvent: {}
+[1.354012] (champ_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[1.362233] (champ) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[1.405498] (-) TimerEvent: {}
+[1.432067] (spotmicro_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[1.505695] (-) TimerEvent: {}
+[1.606159] (-) TimerEvent: {}
+[1.678843] (champ_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.706326] (-) TimerEvent: {}
+[1.725742] (spotmicro_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.726281] (champ) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.806519] (-) TimerEvent: {}
+[1.906957] (-) TimerEvent: {}
+[1.977776] (champ_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.979010] (spotmicro_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.990760] (champ_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.992999] (spotmicro_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.996592] (champ) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.000844] (spotmicro_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.001044] (champ_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.002084] (spotmicro_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.002261] (champ_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.007122] (-) TimerEvent: {}
+[2.010108] (champ) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.010549] (champ) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.011144] (champ) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.083430] (champ_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.084127] (spotmicro_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.107299] (-) TimerEvent: {}
+[2.114975] (champ) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.207475] (-) TimerEvent: {}
+[2.307907] (-) TimerEvent: {}
+[2.357047] (spotmicro_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.366393] (champ_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.370955] (spotmicro_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.371608] (spotmicro_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.372637] (spotmicro_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.382091] (champ_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.383233] (champ_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.384047] (champ_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.408068] (-) TimerEvent: {}
+[2.445782] (champ) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.459992] (champ) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.460397] (champ) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.461113] (champ) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.508225] (-) TimerEvent: {}
+[2.608654] (-) TimerEvent: {}
+[2.709473] (-) TimerEvent: {}
+[2.809992] (-) TimerEvent: {}
+[2.903310] (spotmicro_description) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:9 (find_package):\n'}
+[2.903895] (spotmicro_description) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[2.904099] (spotmicro_description) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[2.904269] (spotmicro_description) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[2.904631] (spotmicro_description) StderrLine: {'line': b'\n'}
+[2.905168] (spotmicro_description) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[2.905288] (spotmicro_description) StderrLine: {'line': b'  any of the following names:\n'}
+[2.905543] (spotmicro_description) StderrLine: {'line': b'\n'}
+[2.905801] (spotmicro_description) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[2.905989] (spotmicro_description) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[2.906094] (spotmicro_description) StderrLine: {'line': b'\n'}
+[2.906205] (spotmicro_description) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[2.906284] (spotmicro_description) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[2.906360] (spotmicro_description) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[2.906552] (spotmicro_description) StderrLine: {'line': b'  has been installed.\n'}
+[2.906705] (spotmicro_description) StderrLine: {'line': b'\n'}
+[2.906885] (spotmicro_description) StderrLine: {'line': b'\x1b[0m\n'}
+[2.907071] (spotmicro_description) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.907287] (champ_msgs) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.907394] (champ_msgs) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:4 (find_package):\n'}
+[2.907618] (champ_msgs) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[2.907706] (champ_msgs) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[2.907785] (champ_msgs) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[2.907959] (champ_msgs) StderrLine: {'line': b'\n'}
+[2.908109] (champ_msgs) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[2.908305] (champ_msgs) StderrLine: {'line': b'  any of the following names:\n'}
+[2.908395] (champ_msgs) StderrLine: {'line': b'\n'}
+[2.908581] (champ_msgs) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[2.908890] (champ_msgs) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[2.909181] (champ_msgs) StderrLine: {'line': b'\n'}
+[2.909700] (champ_msgs) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[2.910204] (-) TimerEvent: {}
+[2.910651] (champ_msgs) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[2.911239] (champ_msgs) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[2.911880] (champ_msgs) StderrLine: {'line': b'  has been installed.\n'}
+[2.912270] (champ_msgs) StderrLine: {'line': b'\n'}
+[2.912704] (champ_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[2.915130] (spotmicro_description) CommandEnded: {'returncode': 1}
+[2.917213] (champ_msgs) CommandEnded: {'returncode': 1}
+[2.959708] (spotmicro_description) JobEnded: {'identifier': 'spotmicro_description', 'rc': 1}
+[2.961863] (champ_msgs) JobEnded: {'identifier': 'champ_msgs', 'rc': 'SIGINT'}
+[3.010363] (-) TimerEvent: {}
+[3.110809] (-) TimerEvent: {}
+[3.211363] (-) TimerEvent: {}
+[3.311784] (-) TimerEvent: {}
+[3.412266] (-) TimerEvent: {}
+[3.512675] (-) TimerEvent: {}
+[3.595507] (champ) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:5 (find_package):\n'}
+[3.595942] (champ) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[3.596065] (champ) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[3.596163] (champ) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[3.596259] (champ) StderrLine: {'line': b'\n'}
+[3.596350] (champ) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[3.596442] (champ) StderrLine: {'line': b'  any of the following names:\n'}
+[3.596519] (champ) StderrLine: {'line': b'\n'}
+[3.596599] (champ) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[3.596669] (champ) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[3.596740] (champ) StderrLine: {'line': b'\n'}
+[3.596807] (champ) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[3.596874] (champ) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[3.596940] (champ) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[3.597007] (champ) StderrLine: {'line': b'  has been installed.\n'}
+[3.597072] (champ) StderrLine: {'line': b'\n'}
+[3.597137] (champ) StderrLine: {'line': b'\x1b[0m\n'}
+[3.597202] (champ) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[3.601789] (champ) JobEnded: {'identifier': 'champ', 'rc': 'SIGINT'}
+[3.612620] (champ_base) JobSkipped: {'identifier': 'champ_base'}
+[3.612712] (-) TimerEvent: {}
+[3.613085] (spotmicro_locomotion_ros2) JobSkipped: {'identifier': 'spotmicro_locomotion_ros2'}
+[3.613180] (-) EventReactorShutdown: {}

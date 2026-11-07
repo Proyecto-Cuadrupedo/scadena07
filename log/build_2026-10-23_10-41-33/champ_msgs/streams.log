@@ -1,0 +1,34 @@
+[0.028s] Invoking command in '/home/sacad/spotmicro_ws/build/champ_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/sacad/spotmicro_ws/src/spotmicro_locomotion_ros2/champ_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sacad/spotmicro_ws/install/champ_msgs
+[0.052s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.437s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.454s] -- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.468s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.730s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.850s] -- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.865s] -- Found std_msgs: 5.3.8 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.958s] -- Found geometry_msgs: 5.3.8 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[2.186s] -- Found ament_cmake_ros: 0.12.2 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[3.117s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.250s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.270s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[4.515s] -- Found PythonExtra: /usr/bin/python3  
+[5.313s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[5.546s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[6.705s] [31mCMake Error at CMakeLists.txt:23 (find_package):
+[6.705s]   By not providing "Findament_lint_auto.cmake" in CMAKE_MODULE_PATH this
+[6.705s]   project has asked CMake to find a package configuration file provided by
+[6.706s]   "ament_lint_auto", but CMake did not find one.
+[6.706s] 
+[6.706s]   Could not find a package configuration file provided by "ament_lint_auto"
+[6.707s]   with any of the following names:
+[6.707s] 
+[6.708s]     ament_lint_autoConfig.cmake
+[6.708s]     ament_lint_auto-config.cmake
+[6.709s] 
+[6.709s]   Add the installation prefix of "ament_lint_auto" to CMAKE_PREFIX_PATH or
+[6.709s]   set "ament_lint_auto_DIR" to a directory containing one of the above files.
+[6.710s]   If "ament_lint_auto" provides a separate development package or SDK, be
+[6.710s]   sure it has been installed.
+[6.710s] 
+[6.711s] [0m
+[6.711s] -- Configuring incomplete, errors occurred!

@@ -1,0 +1,1 @@
+/home/sacad/spotmicro_ws/src/spotmicro_locomotion_ros2/champ/include/champ/quadruped_base/quadruped_base.h

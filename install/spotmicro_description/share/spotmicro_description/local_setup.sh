@@ -1,0 +1,1 @@
+/home/sacad/spotmicro_ws/build/spotmicro_description/ament_cmake_environment_hooks/local_setup.sh

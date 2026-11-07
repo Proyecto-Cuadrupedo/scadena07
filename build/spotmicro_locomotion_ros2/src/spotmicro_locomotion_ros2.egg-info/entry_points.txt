@@ -1,0 +1,2 @@
+[console_scripts]
+spotmicro_champ_bridge = spotmicro_locomotion_ros2.spotmicro_champ_bridge:main

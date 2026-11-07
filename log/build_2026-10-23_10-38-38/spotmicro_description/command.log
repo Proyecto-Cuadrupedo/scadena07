@@ -1,0 +1,2 @@
+Invoking command in '/home/sacad/spotmicro_ws/build/spotmicro_description': /usr/bin/cmake /home/sacad/spotmicro_ws/src/spotmicro_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sacad/spotmicro_ws/install/spotmicro_description
+Invoked command in '/home/sacad/spotmicro_ws/build/spotmicro_description' returned '1': /usr/bin/cmake /home/sacad/spotmicro_ws/src/spotmicro_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sacad/spotmicro_ws/install/spotmicro_description

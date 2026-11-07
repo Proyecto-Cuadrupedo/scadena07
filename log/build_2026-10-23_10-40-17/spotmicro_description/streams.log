@@ -1,0 +1,59 @@
+[0.029s] Invoking command in '/home/sacad/spotmicro_ws/build/spotmicro_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/sacad/spotmicro_ws/src/spotmicro_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sacad/spotmicro_ws/install/spotmicro_description
+[0.068s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.364s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.538s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.830s] -- Configuring done (0.8s)
+[0.842s] -- Generating done (0.0s)
+[0.845s] -- Build files have been written to: /home/sacad/spotmicro_ws/build/spotmicro_description
+[0.851s] Invoked command in '/home/sacad/spotmicro_ws/build/spotmicro_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/sacad/spotmicro_ws/src/spotmicro_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sacad/spotmicro_ws/install/spotmicro_description
+[0.854s] Invoking command in '/home/sacad/spotmicro_ws/build/spotmicro_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/sacad/spotmicro_ws/build/spotmicro_description -- -j16 -l16
+[0.930s] Invoked command in '/home/sacad/spotmicro_ws/build/spotmicro_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/sacad/spotmicro_ws/build/spotmicro_description -- -j16 -l16
+[0.950s] Invoking command in '/home/sacad/spotmicro_ws/build/spotmicro_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/sacad/spotmicro_ws/build/spotmicro_description
+[0.966s] -- Install configuration: ""
+[0.967s] -- Execute custom install script
+[0.969s] -- Symlinking: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/config/ros_gz_bridge.yaml
+[0.987s] -- Symlinking: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/config/spotmicro_controllers.yaml
+[1.008s] -- Symlinking: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/launch/joint_test.launch.py
+[1.028s] -- Symlinking: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/launch/lidar.launch.py
+[1.046s] -- Symlinking: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/launch/rsp.launch.py
+[1.064s] -- Symlinking: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/launch/show_model.launch.py
+[1.082s] -- Symlinking: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/launch/sim.launch.py
+[1.100s] -- Symlinking: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/launch/slam.launch.py
+[1.122s] -- Symlinking: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/meshes/visual/backpart.stl
+[1.142s] -- Symlinking: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/meshes/visual/foot.stl
+[1.162s] -- Symlinking: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/meshes/visual/frontpart.stl
+[1.181s] -- Symlinking: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/meshes/visual/larm.stl
+[1.200s] -- Symlinking: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/meshes/visual/larm_cover.stl
+[1.219s] -- Symlinking: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/meshes/visual/lfoot.stl
+[1.237s] -- Symlinking: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/meshes/visual/lshoulder.stl
+[1.255s] -- Symlinking: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/meshes/visual/mainbody.stl
+[1.273s] -- Symlinking: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/meshes/visual/rarm.stl
+[1.292s] -- Symlinking: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/meshes/visual/rarm_cover.stl
+[1.311s] -- Symlinking: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/meshes/visual/rfoot.stl
+[1.331s] -- Symlinking: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/meshes/visual/rplidar_main.STL
+[1.352s] -- Symlinking: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/meshes/visual/rshoulder.stl
+[1.372s] -- Symlinking: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/rviz/spotmicro.rviz
+[1.395s] -- Symlinking: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/rviz/spotmicro2.rviz
+[1.417s] -- Symlinking: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/rviz/spotmicro_slam.rviz
+[1.441s] -- Symlinking: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/urdf/spotmicro.ros2_control.xacro
+[1.463s] -- Symlinking: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/urdf/spotmicro.urdf.xacro
+[1.485s] -- Symlinking: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/worlds/custom_environment.sdf
+[1.506s] -- Symlinking: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/worlds/depot.sdf
+[1.526s] -- Symlinking: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/worlds/joint_test.sdf
+[1.550s] -- Symlinking: /home/sacad/spotmicro_ws/install/spotmicro_description/lib/spotmicro_description/spotmicro_joint_force_gui.py
+[1.570s] -- Symlinking: /home/sacad/spotmicro_ws/install/spotmicro_description/share/ament_index/resource_index/package_run_dependencies/spotmicro_description
+[1.589s] -- Symlinking: /home/sacad/spotmicro_ws/install/spotmicro_description/share/ament_index/resource_index/parent_prefix_path/spotmicro_description
+[1.611s] -- Symlinking: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/environment/ament_prefix_path.sh
+[1.629s] -- Symlinking: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/environment/ament_prefix_path.dsv
+[1.646s] -- Symlinking: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/environment/path.sh
+[1.664s] -- Symlinking: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/environment/path.dsv
+[1.681s] -- Symlinking: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/local_setup.bash
+[1.701s] -- Symlinking: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/local_setup.sh
+[1.719s] -- Symlinking: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/local_setup.zsh
+[1.738s] -- Symlinking: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/local_setup.dsv
+[1.755s] -- Symlinking: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/package.dsv
+[1.776s] -- Symlinking: /home/sacad/spotmicro_ws/install/spotmicro_description/share/ament_index/resource_index/packages/spotmicro_description
+[1.795s] -- Symlinking: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/cmake/spotmicro_descriptionConfig.cmake
+[1.814s] -- Symlinking: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/cmake/spotmicro_descriptionConfig-version.cmake
+[1.851s] -- Symlinking: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/package.xml
+[1.879s] Invoked command in '/home/sacad/spotmicro_ws/build/spotmicro_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/sacad/spotmicro_ws/build/spotmicro_description

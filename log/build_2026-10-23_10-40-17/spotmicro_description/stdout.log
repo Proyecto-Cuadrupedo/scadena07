@@ -1,0 +1,53 @@
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done (0.8s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/sacad/spotmicro_ws/build/spotmicro_description
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/config/ros_gz_bridge.yaml
+-- Symlinking: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/config/spotmicro_controllers.yaml
+-- Symlinking: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/launch/joint_test.launch.py
+-- Symlinking: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/launch/lidar.launch.py
+-- Symlinking: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/launch/rsp.launch.py
+-- Symlinking: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/launch/show_model.launch.py
+-- Symlinking: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/launch/sim.launch.py
+-- Symlinking: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/launch/slam.launch.py
+-- Symlinking: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/meshes/visual/backpart.stl
+-- Symlinking: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/meshes/visual/foot.stl
+-- Symlinking: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/meshes/visual/frontpart.stl
+-- Symlinking: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/meshes/visual/larm.stl
+-- Symlinking: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/meshes/visual/larm_cover.stl
+-- Symlinking: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/meshes/visual/lfoot.stl
+-- Symlinking: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/meshes/visual/lshoulder.stl
+-- Symlinking: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/meshes/visual/mainbody.stl
+-- Symlinking: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/meshes/visual/rarm.stl
+-- Symlinking: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/meshes/visual/rarm_cover.stl
+-- Symlinking: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/meshes/visual/rfoot.stl
+-- Symlinking: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/meshes/visual/rplidar_main.STL
+-- Symlinking: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/meshes/visual/rshoulder.stl
+-- Symlinking: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/rviz/spotmicro.rviz
+-- Symlinking: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/rviz/spotmicro2.rviz
+-- Symlinking: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/rviz/spotmicro_slam.rviz
+-- Symlinking: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/urdf/spotmicro.ros2_control.xacro
+-- Symlinking: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/urdf/spotmicro.urdf.xacro
+-- Symlinking: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/worlds/custom_environment.sdf
+-- Symlinking: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/worlds/depot.sdf
+-- Symlinking: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/worlds/joint_test.sdf
+-- Symlinking: /home/sacad/spotmicro_ws/install/spotmicro_description/lib/spotmicro_description/spotmicro_joint_force_gui.py
+-- Symlinking: /home/sacad/spotmicro_ws/install/spotmicro_description/share/ament_index/resource_index/package_run_dependencies/spotmicro_description
+-- Symlinking: /home/sacad/spotmicro_ws/install/spotmicro_description/share/ament_index/resource_index/parent_prefix_path/spotmicro_description
+-- Symlinking: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/environment/ament_prefix_path.sh
+-- Symlinking: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/environment/ament_prefix_path.dsv
+-- Symlinking: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/environment/path.sh
+-- Symlinking: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/environment/path.dsv
+-- Symlinking: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/local_setup.bash
+-- Symlinking: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/local_setup.sh
+-- Symlinking: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/local_setup.zsh
+-- Symlinking: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/local_setup.dsv
+-- Symlinking: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/package.dsv
+-- Symlinking: /home/sacad/spotmicro_ws/install/spotmicro_description/share/ament_index/resource_index/packages/spotmicro_description
+-- Symlinking: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/cmake/spotmicro_descriptionConfig.cmake
+-- Symlinking: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/cmake/spotmicro_descriptionConfig-version.cmake
+-- Symlinking: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/package.xml

@@ -1,0 +1,9 @@
+source;share/spotmicro_locomotion_ros2/hook/pythonpath.ps1
+source;share/spotmicro_locomotion_ros2/hook/pythonpath.dsv
+source;share/spotmicro_locomotion_ros2/hook/pythonpath.sh
+source;share/spotmicro_locomotion_ros2/hook/ament_prefix_path.ps1
+source;share/spotmicro_locomotion_ros2/hook/ament_prefix_path.dsv
+source;share/spotmicro_locomotion_ros2/hook/ament_prefix_path.sh
+source;../../build/spotmicro_locomotion_ros2/src/share/spotmicro_locomotion_ros2/hook/pythonpath_develop.ps1
+source;../../build/spotmicro_locomotion_ros2/src/share/spotmicro_locomotion_ros2/hook/pythonpath_develop.dsv
+source;../../build/spotmicro_locomotion_ros2/src/share/spotmicro_locomotion_ros2/hook/pythonpath_develop.sh

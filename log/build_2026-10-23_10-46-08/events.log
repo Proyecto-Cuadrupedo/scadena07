@@ -1,0 +1,1157 @@
+[0.000000] (-) TimerEvent: {}
+[0.001798] (champ) JobQueued: {'identifier': 'champ', 'dependencies': OrderedDict()}
+[0.002231] (champ_msgs) JobQueued: {'identifier': 'champ_msgs', 'dependencies': OrderedDict()}
+[0.002315] (spotmicro_description) JobQueued: {'identifier': 'spotmicro_description', 'dependencies': OrderedDict()}
+[0.002385] (champ_base) JobQueued: {'identifier': 'champ_base', 'dependencies': OrderedDict({'champ': '/home/sacad/spotmicro_ws/install/champ', 'champ_msgs': '/home/sacad/spotmicro_ws/install/champ_msgs'})}
+[0.002594] (spotmicro_locomotion_ros2) JobQueued: {'identifier': 'spotmicro_locomotion_ros2', 'dependencies': OrderedDict({'champ': '/home/sacad/spotmicro_ws/install/champ', 'champ_msgs': '/home/sacad/spotmicro_ws/install/champ_msgs', 'spotmicro_description': '/home/sacad/spotmicro_ws/install/spotmicro_description', 'champ_base': '/home/sacad/spotmicro_ws/install/champ_base'})}
+[0.002695] (champ) JobStarted: {'identifier': 'champ'}
+[0.012307] (champ_msgs) JobStarted: {'identifier': 'champ_msgs'}
+[0.018358] (spotmicro_description) JobStarted: {'identifier': 'spotmicro_description'}
+[0.025400] (champ) JobProgress: {'identifier': 'champ', 'progress': 'cmake'}
+[0.026713] (champ) JobProgress: {'identifier': 'champ', 'progress': 'build'}
+[0.027578] (champ) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sacad/spotmicro_ws/build/champ', '--', '-j16', '-l16'], 'cwd': '/home/sacad/spotmicro_ws/build/champ', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'sacad', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'WT_PROFILE_ID': '{61c54bbd-c2c6-5271-96e7-009a87ff44bf}', 'HOME': '/home/sacad', 'OLDPWD': '/home/sacad/spotmicro_ws/src', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'sacad', 'NAME': 'ASMECH', 'WSL_INTEROP': '/run/WSL/664_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/usr/lib/linux-tools/6.18.54.1-microsoft-standard-WSL2/bin:/mnt/c/Program Files/Eclipse Adoptium/jdk-17.0.16.8-hotspot/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/WSL/:/mnt/c/Users/sacad/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/sacad/AppData/Local/Python/bin:/snap/bin', 'WT_SESSION': '59146605-3dbe-47e3-a1c8-155b2d2d4747', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'PERF_EXEC_PATH': '/usr/lib/linux-tools/6.18.54.1-microsoft-standard-WSL2/libexec/perf-core', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/sacad/spotmicro_ws/build/champ', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib/python:/opt/ros/jazzy/opt/sdformat_vendor/lib/python:/opt/ros/jazzy/opt/gz_transport_vendor/lib/python:/opt/ros/jazzy/opt/gz_msgs_vendor/lib/python:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}), 'shell': False}
+[0.032614] (champ_msgs) JobProgress: {'identifier': 'champ_msgs', 'progress': 'cmake'}
+[0.034446] (champ_msgs) JobProgress: {'identifier': 'champ_msgs', 'progress': 'build'}
+[0.034491] (champ_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sacad/spotmicro_ws/build/champ_msgs', '--', '-j16', '-l16'], 'cwd': '/home/sacad/spotmicro_ws/build/champ_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'sacad', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'WT_PROFILE_ID': '{61c54bbd-c2c6-5271-96e7-009a87ff44bf}', 'HOME': '/home/sacad', 'OLDPWD': '/home/sacad/spotmicro_ws/src', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'sacad', 'NAME': 'ASMECH', 'WSL_INTEROP': '/run/WSL/664_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/usr/lib/linux-tools/6.18.54.1-microsoft-standard-WSL2/bin:/mnt/c/Program Files/Eclipse Adoptium/jdk-17.0.16.8-hotspot/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/WSL/:/mnt/c/Users/sacad/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/sacad/AppData/Local/Python/bin:/snap/bin', 'WT_SESSION': '59146605-3dbe-47e3-a1c8-155b2d2d4747', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'PERF_EXEC_PATH': '/usr/lib/linux-tools/6.18.54.1-microsoft-standard-WSL2/libexec/perf-core', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/sacad/spotmicro_ws/build/champ_msgs', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib/python:/opt/ros/jazzy/opt/sdformat_vendor/lib/python:/opt/ros/jazzy/opt/gz_transport_vendor/lib/python:/opt/ros/jazzy/opt/gz_msgs_vendor/lib/python:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}), 'shell': False}
+[0.040619] (spotmicro_description) JobProgress: {'identifier': 'spotmicro_description', 'progress': 'cmake'}
+[0.041509] (spotmicro_description) JobProgress: {'identifier': 'spotmicro_description', 'progress': 'build'}
+[0.041978] (spotmicro_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sacad/spotmicro_ws/build/spotmicro_description', '--', '-j16', '-l16'], 'cwd': '/home/sacad/spotmicro_ws/build/spotmicro_description', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'sacad', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'WT_PROFILE_ID': '{61c54bbd-c2c6-5271-96e7-009a87ff44bf}', 'HOME': '/home/sacad', 'OLDPWD': '/home/sacad/spotmicro_ws/src', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'sacad', 'NAME': 'ASMECH', 'WSL_INTEROP': '/run/WSL/664_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/usr/lib/linux-tools/6.18.54.1-microsoft-standard-WSL2/bin:/mnt/c/Program Files/Eclipse Adoptium/jdk-17.0.16.8-hotspot/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/WSL/:/mnt/c/Users/sacad/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/sacad/AppData/Local/Python/bin:/snap/bin', 'WT_SESSION': '59146605-3dbe-47e3-a1c8-155b2d2d4747', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'PERF_EXEC_PATH': '/usr/lib/linux-tools/6.18.54.1-microsoft-standard-WSL2/libexec/perf-core', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/sacad/spotmicro_ws/build/spotmicro_description', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib/python:/opt/ros/jazzy/opt/sdformat_vendor/lib/python:/opt/ros/jazzy/opt/gz_transport_vendor/lib/python:/opt/ros/jazzy/opt/gz_msgs_vendor/lib/python:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}), 'shell': False}
+[0.099430] (-) TimerEvent: {}
+[0.127280] (spotmicro_description) CommandEnded: {'returncode': 0}
+[0.129377] (spotmicro_description) JobProgress: {'identifier': 'spotmicro_description', 'progress': 'install'}
+[0.151545] (spotmicro_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sacad/spotmicro_ws/build/spotmicro_description'], 'cwd': '/home/sacad/spotmicro_ws/build/spotmicro_description', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'sacad', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'WT_PROFILE_ID': '{61c54bbd-c2c6-5271-96e7-009a87ff44bf}', 'HOME': '/home/sacad', 'OLDPWD': '/home/sacad/spotmicro_ws/src', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'sacad', 'NAME': 'ASMECH', 'WSL_INTEROP': '/run/WSL/664_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/usr/lib/linux-tools/6.18.54.1-microsoft-standard-WSL2/bin:/mnt/c/Program Files/Eclipse Adoptium/jdk-17.0.16.8-hotspot/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/WSL/:/mnt/c/Users/sacad/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/sacad/AppData/Local/Python/bin:/snap/bin', 'WT_SESSION': '59146605-3dbe-47e3-a1c8-155b2d2d4747', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'PERF_EXEC_PATH': '/usr/lib/linux-tools/6.18.54.1-microsoft-standard-WSL2/libexec/perf-core', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/sacad/spotmicro_ws/build/spotmicro_description', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib/python:/opt/ros/jazzy/opt/sdformat_vendor/lib/python:/opt/ros/jazzy/opt/gz_transport_vendor/lib/python:/opt/ros/jazzy/opt/gz_msgs_vendor/lib/python:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}), 'shell': False}
+[0.153377] (champ) CommandEnded: {'returncode': 0}
+[0.154979] (champ) JobProgress: {'identifier': 'champ', 'progress': 'install'}
+[0.156261] (champ) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sacad/spotmicro_ws/build/champ'], 'cwd': '/home/sacad/spotmicro_ws/build/champ', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'sacad', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'WT_PROFILE_ID': '{61c54bbd-c2c6-5271-96e7-009a87ff44bf}', 'HOME': '/home/sacad', 'OLDPWD': '/home/sacad/spotmicro_ws/src', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'sacad', 'NAME': 'ASMECH', 'WSL_INTEROP': '/run/WSL/664_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/usr/lib/linux-tools/6.18.54.1-microsoft-standard-WSL2/bin:/mnt/c/Program Files/Eclipse Adoptium/jdk-17.0.16.8-hotspot/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/WSL/:/mnt/c/Users/sacad/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/sacad/AppData/Local/Python/bin:/snap/bin', 'WT_SESSION': '59146605-3dbe-47e3-a1c8-155b2d2d4747', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'PERF_EXEC_PATH': '/usr/lib/linux-tools/6.18.54.1-microsoft-standard-WSL2/libexec/perf-core', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/sacad/spotmicro_ws/build/champ', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib/python:/opt/ros/jazzy/opt/sdformat_vendor/lib/python:/opt/ros/jazzy/opt/gz_transport_vendor/lib/python:/opt/ros/jazzy/opt/gz_msgs_vendor/lib/python:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}), 'shell': False}
+[0.157149] (champ_msgs) StdoutLine: {'line': b'[  1%] Built target champ_msgs__rosidl_generator_type_description\n'}
+[0.158548] (champ_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating Rust code for ROS interfaces\x1b[0m\n'}
+[0.172460] (champ) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.173409] (spotmicro_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.174358] (spotmicro_description) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.174871] (champ) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.175175] (spotmicro_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/config/ros_gz_bridge.yaml\n'}
+[0.175589] (spotmicro_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/config/spotmicro_controllers.yaml\n'}
+[0.175994] (champ) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sacad/spotmicro_ws/install/champ/include/champ/LICENSE\n'}
+[0.176395] (champ) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sacad/spotmicro_ws/install/champ/include/champ/README.md\n'}
+[0.177188] (champ) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sacad/spotmicro_ws/install/champ/include/champ/bla/basic_linear_algebra.h\n'}
+[0.177658] (spotmicro_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/launch/joint_test.launch.py\n'}
+[0.178083] (champ) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sacad/spotmicro_ws/install/champ/include/champ/bla/memory_delegate.h\n'}
+[0.178663] (champ) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sacad/spotmicro_ws/install/champ/include/champ/body_controller/body_controller.h\n'}
+[0.179034] (champ) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sacad/spotmicro_ws/install/champ/include/champ/geometry/geometry.h\n'}
+[0.179393] (champ) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sacad/spotmicro_ws/install/champ/include/champ/kinematics/kinematics.h\n'}
+[0.179768] (champ) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sacad/spotmicro_ws/install/champ/include/champ/leg_controller/leg_controller.h\n'}
+[0.180171] (spotmicro_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/launch/lidar.launch.py\n'}
+[0.180580] (spotmicro_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/launch/rsp.launch.py\n'}
+[0.180996] (spotmicro_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/launch/show_model.launch.py\n'}
+[0.181392] (spotmicro_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/launch/sim.launch.py\n'}
+[0.182109] (spotmicro_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/launch/slam.launch.py\n'}
+[0.182494] (spotmicro_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/meshes/visual/backpart.stl\n'}
+[0.183281] (spotmicro_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/meshes/visual/foot.stl\n'}
+[0.183818] (spotmicro_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/meshes/visual/frontpart.stl\n'}
+[0.184467] (champ) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sacad/spotmicro_ws/install/champ/include/champ/leg_controller/phase_generator.h\n'}
+[0.184902] (champ) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sacad/spotmicro_ws/install/champ/include/champ/leg_controller/trajectory_planner.h\n'}
+[0.185322] (champ) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sacad/spotmicro_ws/install/champ/include/champ/macros/macros.h\n'}
+[0.185858] (champ) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sacad/spotmicro_ws/install/champ/include/champ/odometry/odometry.h\n'}
+[0.186233] (champ) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sacad/spotmicro_ws/install/champ/include/champ/quadruped_base/quadruped_base.h\n'}
+[0.186616] (champ) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sacad/spotmicro_ws/install/champ/include/champ/quadruped_base/quadruped_components.h\n'}
+[0.187005] (champ) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sacad/spotmicro_ws/install/champ/include/champ/quadruped_base/quadruped_joint.h\n'}
+[0.187389] (champ) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sacad/spotmicro_ws/install/champ/include/champ/quadruped_base/quadruped_leg.h\n'}
+[0.187814] (champ) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sacad/spotmicro_ws/install/champ/include/champ/utils/urdf_loader.h\n'}
+[0.188203] (champ) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sacad/spotmicro_ws/install/champ/include/champ/utils/xmlrpc_helpers.h\n'}
+[0.188835] (champ) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sacad/spotmicro_ws/install/champ/share/ament_index/resource_index/package_run_dependencies/champ\n'}
+[0.189287] (champ) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sacad/spotmicro_ws/install/champ/share/ament_index/resource_index/parent_prefix_path/champ\n'}
+[0.189706] (champ_msgs) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_symlink_champ_msgs\n'}
+[0.190638] (champ) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sacad/spotmicro_ws/install/champ/share/champ/environment/ament_prefix_path.sh\n'}
+[0.190936] (champ) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sacad/spotmicro_ws/install/champ/share/champ/environment/ament_prefix_path.dsv\n'}
+[0.191480] (champ) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sacad/spotmicro_ws/install/champ/share/champ/environment/path.sh\n'}
+[0.191675] (spotmicro_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/meshes/visual/larm.stl\n'}
+[0.191861] (spotmicro_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/meshes/visual/larm_cover.stl\n'}
+[0.192031] (spotmicro_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/meshes/visual/lfoot.stl\n'}
+[0.192199] (spotmicro_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/meshes/visual/lshoulder.stl\n'}
+[0.192336] (spotmicro_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/meshes/visual/mainbody.stl\n'}
+[0.192464] (spotmicro_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/meshes/visual/rarm.stl\n'}
+[0.192603] (spotmicro_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/meshes/visual/rarm_cover.stl\n'}
+[0.192748] (spotmicro_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/meshes/visual/rfoot.stl\n'}
+[0.192909] (spotmicro_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/meshes/visual/rplidar_main.STL\n'}
+[0.193069] (spotmicro_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/meshes/visual/rshoulder.stl\n'}
+[0.193288] (spotmicro_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/rviz/spotmicro.rviz\n'}
+[0.193443] (spotmicro_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/rviz/spotmicro2.rviz\n'}
+[0.193696] (spotmicro_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/rviz/spotmicro_slam.rviz\n'}
+[0.193865] (spotmicro_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/urdf/spotmicro.ros2_control.xacro\n'}
+[0.194011] (spotmicro_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/urdf/spotmicro.urdf.xacro\n'}
+[0.194166] (spotmicro_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/worlds/custom_environment.sdf\n'}
+[0.194314] (champ) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sacad/spotmicro_ws/install/champ/share/champ/environment/path.dsv\n'}
+[0.194459] (spotmicro_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/worlds/depot.sdf\n'}
+[0.194607] (spotmicro_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/worlds/joint_test.sdf\n'}
+[0.194738] (spotmicro_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sacad/spotmicro_ws/install/spotmicro_description/lib/spotmicro_description/spotmicro_joint_force_gui.py\n'}
+[0.194876] (spotmicro_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sacad/spotmicro_ws/install/spotmicro_description/share/ament_index/resource_index/package_run_dependencies/spotmicro_description\n'}
+[0.195044] (spotmicro_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sacad/spotmicro_ws/install/spotmicro_description/share/ament_index/resource_index/parent_prefix_path/spotmicro_description\n'}
+[0.195216] (spotmicro_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/environment/ament_prefix_path.sh\n'}
+[0.195391] (spotmicro_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/environment/ament_prefix_path.dsv\n'}
+[0.195536] (spotmicro_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/environment/path.sh\n'}
+[0.195764] (spotmicro_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/environment/path.dsv\n'}
+[0.195923] (spotmicro_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/local_setup.bash\n'}
+[0.196069] (spotmicro_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/local_setup.sh\n'}
+[0.196247] (spotmicro_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/local_setup.zsh\n'}
+[0.196409] (champ) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sacad/spotmicro_ws/install/champ/share/champ/local_setup.bash\n'}
+[0.196574] (champ) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sacad/spotmicro_ws/install/champ/share/champ/local_setup.sh\n'}
+[0.196965] (champ) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sacad/spotmicro_ws/install/champ/share/champ/local_setup.zsh\n'}
+[0.197119] (champ) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sacad/spotmicro_ws/install/champ/share/champ/local_setup.dsv\n'}
+[0.197253] (champ) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ/share/champ/package.dsv\n'}
+[0.197437] (spotmicro_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/local_setup.dsv\n'}
+[0.197792] (spotmicro_description) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/package.dsv\n'}
+[0.199582] (-) TimerEvent: {}
+[0.203873] (champ_msgs) StdoutLine: {'line': b'[  2%] Built target champ_msgs__cpp\n'}
+[0.208144] (champ) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sacad/spotmicro_ws/install/champ/share/ament_index/resource_index/packages/champ\n'}
+[0.208534] (champ) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sacad/spotmicro_ws/install/champ/share/champ/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.208925] (champ) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sacad/spotmicro_ws/install/champ/share/champ/cmake/champConfig.cmake\n'}
+[0.209272] (champ) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sacad/spotmicro_ws/install/champ/share/champ/cmake/champConfig-version.cmake\n'}
+[0.209697] (champ) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sacad/spotmicro_ws/install/champ/share/champ/package.xml\n'}
+[0.214206] (champ) CommandEnded: {'returncode': 0}
+[0.216030] (spotmicro_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sacad/spotmicro_ws/install/spotmicro_description/share/ament_index/resource_index/packages/spotmicro_description\n'}
+[0.216562] (spotmicro_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/cmake/spotmicro_descriptionConfig.cmake\n'}
+[0.216890] (spotmicro_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/cmake/spotmicro_descriptionConfig-version.cmake\n'}
+[0.217438] (spotmicro_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sacad/spotmicro_ws/install/spotmicro_description/share/spotmicro_description/package.xml\n'}
+[0.239434] (champ_msgs) StdoutLine: {'line': b'[ 27%] Built target champ_msgs__rosidl_generator_c\n'}
+[0.249845] (champ) JobEnded: {'identifier': 'champ', 'rc': 0}
+[0.254123] (spotmicro_description) CommandEnded: {'returncode': 0}
+[0.282216] (spotmicro_description) JobEnded: {'identifier': 'spotmicro_description', 'rc': 0}
+[0.299788] (-) TimerEvent: {}
+[0.310597] (champ_msgs) StdoutLine: {'line': b'[ 37%] Built target champ_msgs__rosidl_typesupport_c\n'}
+[0.316497] (champ_msgs) StdoutLine: {'line': b'[ 47%] Built target champ_msgs__rosidl_typesupport_introspection_c\n'}
+[0.322198] (champ_msgs) StdoutLine: {'line': b'[ 65%] Built target champ_msgs__rosidl_typesupport_introspection_cpp\n'}
+[0.322693] (champ_msgs) StdoutLine: {'line': b'[ 65%] Built target champ_msgs__rosidl_typesupport_cpp\n'}
+[0.323176] (champ_msgs) StdoutLine: {'line': b'[ 75%] Built target champ_msgs__rosidl_typesupport_fastrtps_c\n'}
+[0.325502] (champ_msgs) StdoutLine: {'line': b'[ 84%] Built target champ_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[0.399966] (-) TimerEvent: {}
+[0.500504] (-) TimerEvent: {}
+[0.556468] (champ_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[0.583503] (champ_msgs) StdoutLine: {'line': b'writing champ_msgs.egg-info/PKG-INFO\n'}
+[0.584115] (champ_msgs) StdoutLine: {'line': b'writing dependency_links to champ_msgs.egg-info/dependency_links.txt\n'}
+[0.584508] (champ_msgs) StdoutLine: {'line': b'writing top-level names to champ_msgs.egg-info/top_level.txt\n'}
+[0.600688] (-) TimerEvent: {}
+[0.673439] (champ_msgs) StdoutLine: {'line': b"reading manifest file 'champ_msgs.egg-info/SOURCES.txt'\n"}
+[0.674255] (champ_msgs) StdoutLine: {'line': b"writing manifest file 'champ_msgs.egg-info/SOURCES.txt'\n"}
+[0.676088] (champ_msgs) StdoutLine: {'line': b'[ 84%] Built target champ_msgs__rs\n'}
+[0.700866] (-) TimerEvent: {}
+[0.716815] (champ_msgs) StdoutLine: {'line': b'[ 84%] Built target champ_msgs\n'}
+[0.718651] (champ_msgs) StdoutLine: {'line': b'[ 84%] Built target ament_cmake_python_build_champ_msgs_egg\n'}
+[0.758338] (champ_msgs) StdoutLine: {'line': b'[ 85%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[0.801341] (-) TimerEvent: {}
+[0.902141] (-) TimerEvent: {}
+[1.002626] (-) TimerEvent: {}
+[1.103195] (-) TimerEvent: {}
+[1.203803] (-) TimerEvent: {}
+[1.304405] (-) TimerEvent: {}
+[1.405020] (-) TimerEvent: {}
+[1.505705] (-) TimerEvent: {}
+[1.606252] (-) TimerEvent: {}
+[1.706821] (-) TimerEvent: {}
+[1.807502] (-) TimerEvent: {}
+[1.909033] (-) TimerEvent: {}
+[1.958749] (champ_msgs) StdoutLine: {'line': b'[ 85%] Built target champ_msgs__py\n'}
+[2.007404] (champ_msgs) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_pid_s.c.o\x1b[0m\n'}
+[2.008500] (champ_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_joints_s.c.o\x1b[0m\n'}
+[2.009144] (-) TimerEvent: {}
+[2.010437] (champ_msgs) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_velocities_s.c.o\x1b[0m\n'}
+[2.013193] (champ_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_point_s.c.o\x1b[0m\n'}
+[2.013632] (champ_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_contacts_stamped_s.c.o\x1b[0m\n'}
+[2.014358] (champ_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_contacts_s.c.o\x1b[0m\n'}
+[2.014906] (champ_msgs) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_imu_s.c.o\x1b[0m\n'}
+[2.027168] (champ_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_point_array_s.c.o\x1b[0m\n'}
+[2.031874] (champ_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_pose_s.c.o\x1b[0m\n'}
+[2.109332] (-) TimerEvent: {}
+[2.209798] (-) TimerEvent: {}
+[2.310348] (-) TimerEvent: {}
+[2.410887] (-) TimerEvent: {}
+[2.511440] (-) TimerEvent: {}
+[2.523835] (champ_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library libchamp_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[2.611606] (-) TimerEvent: {}
+[2.712093] (-) TimerEvent: {}
+[2.722913] (champ_msgs) StdoutLine: {'line': b'[ 94%] Built target champ_msgs__rosidl_generator_py\n'}
+[2.761968] (champ_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/champ_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/champ_msgs/_champ_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[2.762427] (champ_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/champ_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/champ_msgs/_champ_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[2.762890] (champ_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/champ_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/champ_msgs/_champ_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[2.812267] (-) TimerEvent: {}
+[2.912859] (-) TimerEvent: {}
+[2.991007] (champ_msgs) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/champ_msgs/champ_msgs_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[2.991338] (champ_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/champ_msgs/champ_msgs_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[2.991437] (champ_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/champ_msgs/champ_msgs_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[3.012964] (-) TimerEvent: {}
+[3.105119] (champ_msgs) StdoutLine: {'line': b'[100%] Built target champ_msgs_s__rosidl_typesupport_c\n'}
+[3.106978] (champ_msgs) StdoutLine: {'line': b'[100%] Built target champ_msgs_s__rosidl_typesupport_fastrtps_c\n'}
+[3.107406] (champ_msgs) StdoutLine: {'line': b'[100%] Built target champ_msgs_s__rosidl_typesupport_introspection_c\n'}
+[3.113671] (-) TimerEvent: {}
+[3.132468] (champ_msgs) CommandEnded: {'returncode': 0}
+[3.134386] (champ_msgs) JobProgress: {'identifier': 'champ_msgs', 'progress': 'install'}
+[3.134437] (champ_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sacad/spotmicro_ws/build/champ_msgs'], 'cwd': '/home/sacad/spotmicro_ws/build/champ_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'sacad', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'WT_PROFILE_ID': '{61c54bbd-c2c6-5271-96e7-009a87ff44bf}', 'HOME': '/home/sacad', 'OLDPWD': '/home/sacad/spotmicro_ws/src', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'sacad', 'NAME': 'ASMECH', 'WSL_INTEROP': '/run/WSL/664_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/usr/lib/linux-tools/6.18.54.1-microsoft-standard-WSL2/bin:/mnt/c/Program Files/Eclipse Adoptium/jdk-17.0.16.8-hotspot/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/WSL/:/mnt/c/Users/sacad/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/sacad/AppData/Local/Python/bin:/snap/bin', 'WT_SESSION': '59146605-3dbe-47e3-a1c8-155b2d2d4747', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'PERF_EXEC_PATH': '/usr/lib/linux-tools/6.18.54.1-microsoft-standard-WSL2/libexec/perf-core', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/sacad/spotmicro_ws/build/champ_msgs', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib/python:/opt/ros/jazzy/opt/sdformat_vendor/lib/python:/opt/ros/jazzy/opt/gz_transport_vendor/lib/python:/opt/ros/jazzy/opt/gz_msgs_vendor/lib/python:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}), 'shell': False}
+[3.149704] (champ_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.150632] (champ_msgs) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[3.153273] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/share/ament_index/resource_index/rosidl_interfaces/champ_msgs\n'}
+[3.173846] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/share/champ_msgs/msg/Velocities.json\n'}
+[3.191945] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/share/champ_msgs/msg/PID.json\n'}
+[3.209011] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/share/champ_msgs/msg/Imu.json\n'}
+[3.213867] (-) TimerEvent: {}
+[3.227726] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/share/champ_msgs/msg/Point.json\n'}
+[3.244984] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/share/champ_msgs/msg/PointArray.json\n'}
+[3.262573] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/share/champ_msgs/msg/Joints.json\n'}
+[3.280673] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/share/champ_msgs/msg/Contacts.json\n'}
+[3.299414] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/share/champ_msgs/msg/ContactsStamped.json\n'}
+[3.314100] (-) TimerEvent: {}
+[3.317284] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/share/champ_msgs/msg/Pose.json\n'}
+[3.338392] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/contacts.h\n'}
+[3.357151] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/contacts_stamped.h\n'}
+[3.376705] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts__functions.h\n'}
+[3.393917] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts__struct.h\n'}
+[3.411003] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts__type_support.h\n'}
+[3.414302] (-) TimerEvent: {}
+[3.428455] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts_stamped__functions.h\n'}
+[3.446510] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts_stamped__struct.h\n'}
+[3.465351] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts_stamped__type_support.h\n'}
+[3.484214] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/imu__functions.h\n'}
+[3.502831] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/imu__struct.h\n'}
+[3.514527] (-) TimerEvent: {}
+[3.520489] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/imu__type_support.h\n'}
+[3.537232] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/joints__functions.h\n'}
+[3.554499] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/joints__struct.h\n'}
+[3.575538] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/joints__type_support.h\n'}
+[3.594011] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pid__functions.h\n'}
+[3.612900] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pid__struct.h\n'}
+[3.614710] (-) TimerEvent: {}
+[3.631638] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pid__type_support.h\n'}
+[3.648175] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point__functions.h\n'}
+[3.665965] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point__struct.h\n'}
+[3.682896] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point__type_support.h\n'}
+[3.699511] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point_array__functions.h\n'}
+[3.714860] (-) TimerEvent: {}
+[3.717745] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point_array__struct.h\n'}
+[3.736568] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point_array__type_support.h\n'}
+[3.754472] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pose__functions.h\n'}
+[3.773169] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pose__struct.h\n'}
+[3.791362] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pose__type_support.h\n'}
+[3.809512] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/velocities__functions.h\n'}
+[3.815113] (-) TimerEvent: {}
+[3.828219] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/velocities__struct.h\n'}
+[3.846593] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/velocities__type_support.h\n'}
+[3.864926] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/imu.h\n'}
+[3.883406] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/joints.h\n'}
+[3.901310] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/pid.h\n'}
+[3.915348] (-) TimerEvent: {}
+[3.918454] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/point.h\n'}
+[3.936130] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/point_array.h\n'}
+[3.954958] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/pose.h\n'}
+[3.972231] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[3.989870] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/velocities.h\n'}
+[4.009094] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/share/champ_msgs/environment/library_path.sh\n'}
+[4.015470] (-) TimerEvent: {}
+[4.027755] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/share/champ_msgs/environment/library_path.dsv\n'}
+[4.047179] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts__rosidl_typesupport_fastrtps_c.h\n'}
+[4.064935] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts_stamped__rosidl_typesupport_fastrtps_c.h\n'}
+[4.083015] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/imu__rosidl_typesupport_fastrtps_c.h\n'}
+[4.101284] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/joints__rosidl_typesupport_fastrtps_c.h\n'}
+[4.115584] (-) TimerEvent: {}
+[4.119284] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pid__rosidl_typesupport_fastrtps_c.h\n'}
+[4.137194] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point__rosidl_typesupport_fastrtps_c.h\n'}
+[4.154869] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point_array__rosidl_typesupport_fastrtps_c.h\n'}
+[4.172666] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pose__rosidl_typesupport_fastrtps_c.h\n'}
+[4.191324] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/velocities__rosidl_typesupport_fastrtps_c.h\n'}
+[4.209917] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[4.215729] (-) TimerEvent: {}
+[4.230164] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts__rosidl_typesupport_introspection_c.h\n'}
+[4.247774] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts_stamped__rosidl_typesupport_introspection_c.h\n'}
+[4.264940] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/imu__rosidl_typesupport_introspection_c.h\n'}
+[4.284917] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/joints__rosidl_typesupport_introspection_c.h\n'}
+[4.304275] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pid__rosidl_typesupport_introspection_c.h\n'}
+[4.315921] (-) TimerEvent: {}
+[4.322404] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point__rosidl_typesupport_introspection_c.h\n'}
+[4.340175] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point_array__rosidl_typesupport_introspection_c.h\n'}
+[4.358304] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pose__rosidl_typesupport_introspection_c.h\n'}
+[4.375180] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/velocities__rosidl_typesupport_introspection_c.h\n'}
+[4.392537] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[4.411585] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/contacts.hpp\n'}
+[4.416152] (-) TimerEvent: {}
+[4.429715] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/contacts_stamped.hpp\n'}
+[4.447443] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts__builder.hpp\n'}
+[4.464403] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts__struct.hpp\n'}
+[4.483072] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts__traits.hpp\n'}
+[4.500125] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts__type_support.hpp\n'}
+[4.516270] (-) TimerEvent: {}
+[4.518180] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts_stamped__builder.hpp\n'}
+[4.537215] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts_stamped__struct.hpp\n'}
+[4.555540] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts_stamped__traits.hpp\n'}
+[4.574711] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts_stamped__type_support.hpp\n'}
+[4.594446] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/imu__builder.hpp\n'}
+[4.613429] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/imu__struct.hpp\n'}
+[4.616565] (-) TimerEvent: {}
+[4.632377] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/imu__traits.hpp\n'}
+[4.651642] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/imu__type_support.hpp\n'}
+[4.670715] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/joints__builder.hpp\n'}
+[4.688406] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/joints__struct.hpp\n'}
+[4.705510] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/joints__traits.hpp\n'}
+[4.716772] (-) TimerEvent: {}
+[4.724399] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/joints__type_support.hpp\n'}
+[4.742936] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pid__builder.hpp\n'}
+[4.761841] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pid__struct.hpp\n'}
+[4.780794] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pid__traits.hpp\n'}
+[4.800437] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pid__type_support.hpp\n'}
+[4.816884] (-) TimerEvent: {}
+[4.822645] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point__builder.hpp\n'}
+[4.842715] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point__struct.hpp\n'}
+[4.861410] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point__traits.hpp\n'}
+[4.883868] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point__type_support.hpp\n'}
+[4.901977] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point_array__builder.hpp\n'}
+[4.917048] (-) TimerEvent: {}
+[4.921768] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point_array__struct.hpp\n'}
+[4.941023] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point_array__traits.hpp\n'}
+[4.962068] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point_array__type_support.hpp\n'}
+[4.979403] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pose__builder.hpp\n'}
+[4.997648] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pose__struct.hpp\n'}
+[5.014719] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pose__traits.hpp\n'}
+[5.017168] (-) TimerEvent: {}
+[5.032277] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pose__type_support.hpp\n'}
+[5.049343] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/velocities__builder.hpp\n'}
+[5.067146] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/velocities__struct.hpp\n'}
+[5.085362] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/velocities__traits.hpp\n'}
+[5.102738] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/velocities__type_support.hpp\n'}
+[5.117398] (-) TimerEvent: {}
+[5.122713] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/imu.hpp\n'}
+[5.140327] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/joints.hpp\n'}
+[5.157510] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/pid.hpp\n'}
+[5.174428] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/point.hpp\n'}
+[5.192357] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/point_array.hpp\n'}
+[5.209368] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/pose.hpp\n'}
+[5.217865] (-) TimerEvent: {}
+[5.227770] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[5.246437] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/velocities.hpp\n'}
+[5.264472] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.282720] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts_stamped__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.302467] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/imu__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.317868] (-) TimerEvent: {}
+[5.319362] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/joints__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.337896] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pid__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.356105] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.373931] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point_array__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.391567] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pose__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.410738] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/velocities__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.418076] (-) TimerEvent: {}
+[5.428622] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[5.449885] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.467720] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts_stamped__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.484696] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/imu__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.502930] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/joints__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.518210] (-) TimerEvent: {}
+[5.520902] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pid__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.540293] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.557899] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point_array__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.575221] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pose__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.593478] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/velocities__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.611314] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/share/champ_msgs/environment/pythonpath.sh\n'}
+[5.618414] (-) TimerEvent: {}
+[5.631563] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/share/champ_msgs/environment/pythonpath.dsv\n'}
+[5.652953] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/lib/python3.12/site-packages/champ_msgs-0.1.0-py3.12.egg-info/PKG-INFO\n'}
+[5.671286] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/lib/python3.12/site-packages/champ_msgs-0.1.0-py3.12.egg-info/SOURCES.txt\n'}
+[5.690348] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/lib/python3.12/site-packages/champ_msgs-0.1.0-py3.12.egg-info/dependency_links.txt\n'}
+[5.708321] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/lib/python3.12/site-packages/champ_msgs-0.1.0-py3.12.egg-info/top_level.txt\n'}
+[5.718597] (-) TimerEvent: {}
+[5.729658] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/__init__.py\n'}
+[5.747377] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/_champ_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[5.767311] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/_champ_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[5.785461] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/_champ_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[5.803552] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/champ_msgs_s__rosidl_typesupport_c.so\n'}
+[5.818698] (-) TimerEvent: {}
+[5.821646] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/champ_msgs_s__rosidl_typesupport_fastrtps_c.so\n'}
+[5.840193] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/champ_msgs_s__rosidl_typesupport_introspection_c.so\n'}
+[5.860089] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/msg/__init__.py\n'}
+[5.878091] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/msg/_contacts.py\n'}
+[5.896285] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/msg/_contacts_s.c\n'}
+[5.912914] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/msg/_contacts_stamped.py\n'}
+[5.918946] (-) TimerEvent: {}
+[5.930784] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/msg/_contacts_stamped_s.c\n'}
+[5.948411] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/msg/_imu.py\n'}
+[5.966853] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/msg/_imu_s.c\n'}
+[5.984535] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/msg/_joints.py\n'}
+[6.002696] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/msg/_joints_s.c\n'}
+[6.019078] (-) TimerEvent: {}
+[6.020652] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/msg/_pid.py\n'}
+[6.039795] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/msg/_pid_s.c\n'}
+[6.057244] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/msg/_point.py\n'}
+[6.075340] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/msg/_point_array.py\n'}
+[6.093156] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/msg/_point_array_s.c\n'}
+[6.111075] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/msg/_point_s.c\n'}
+[6.119954] (-) TimerEvent: {}
+[6.130802] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/msg/_pose.py\n'}
+[6.147858] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/msg/_pose_s.c\n'}
+[6.166380] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/msg/_velocities.py\n'}
+[6.183723] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/msg/_velocities_s.c\n'}
+[6.202892] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sacad/spotmicro_ws/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/champ_msgs_s__rosidl_typesupport_fastrtps_c.so\n'}
+[6.203290] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sacad/spotmicro_ws/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/champ_msgs_s__rosidl_typesupport_introspection_c.so\n'}
+[6.203852] (champ_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sacad/spotmicro_ws/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/champ_msgs_s__rosidl_typesupport_c.so\n'}
+[6.205260] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/share/champ_msgs/rust/Cargo.toml\n'}
+[6.220413] (-) TimerEvent: {}
+[6.224300] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/share/champ_msgs/rust/build.rs\n'}
+[6.243097] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/share/champ_msgs/rust/src/lib.rs\n'}
+[6.260618] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/share/champ_msgs/rust/src/msg.rs\n'}
+[6.279494] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/share/champ_msgs/rust/src/msg/rmw.rs\n'}
+[6.297764] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/share/champ_msgs/msg/Velocities.idl\n'}
+[6.315262] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/share/champ_msgs/msg/PID.idl\n'}
+[6.320542] (-) TimerEvent: {}
+[6.333855] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/share/champ_msgs/msg/Imu.idl\n'}
+[6.351974] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/share/champ_msgs/msg/Point.idl\n'}
+[6.370432] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/share/champ_msgs/msg/PointArray.idl\n'}
+[6.387560] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/share/champ_msgs/msg/Joints.idl\n'}
+[6.405353] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/share/champ_msgs/msg/Contacts.idl\n'}
+[6.420760] (-) TimerEvent: {}
+[6.423403] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/share/champ_msgs/msg/ContactsStamped.idl\n'}
+[6.442040] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/share/champ_msgs/msg/Pose.idl\n'}
+[6.459852] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/share/champ_msgs/msg/Velocities.msg\n'}
+[6.477496] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/share/champ_msgs/msg/PID.msg\n'}
+[6.495170] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/share/champ_msgs/msg/Imu.msg\n'}
+[6.513837] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/share/champ_msgs/msg/Point.msg\n'}
+[6.520894] (-) TimerEvent: {}
+[6.532679] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/share/champ_msgs/msg/PointArray.msg\n'}
+[6.550630] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/share/champ_msgs/msg/Joints.msg\n'}
+[6.568344] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/share/champ_msgs/msg/Contacts.msg\n'}
+[6.586308] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/share/champ_msgs/msg/ContactsStamped.msg\n'}
+[6.603415] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/share/champ_msgs/msg/Pose.msg\n'}
+[6.621053] (-) TimerEvent: {}
+[6.622915] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/share/ament_index/resource_index/package_run_dependencies/champ_msgs\n'}
+[6.642500] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/share/ament_index/resource_index/parent_prefix_path/champ_msgs\n'}
+[6.659516] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/share/champ_msgs/environment/ament_prefix_path.sh\n'}
+[6.677736] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/share/champ_msgs/environment/ament_prefix_path.dsv\n'}
+[6.696018] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/share/champ_msgs/environment/path.sh\n'}
+[6.713496] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/share/champ_msgs/environment/path.dsv\n'}
+[6.721245] (-) TimerEvent: {}
+[6.731971] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/share/champ_msgs/local_setup.bash\n'}
+[6.751281] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/share/champ_msgs/local_setup.sh\n'}
+[6.769538] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/share/champ_msgs/local_setup.zsh\n'}
+[6.787824] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/share/champ_msgs/local_setup.dsv\n'}
+[6.805623] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/share/champ_msgs/package.dsv\n'}
+[6.821954] (-) TimerEvent: {}
+[6.825651] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/share/ament_index/resource_index/packages/champ_msgs\n'}
+[6.845845] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/share/champ_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[6.864939] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/share/champ_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[6.885418] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/share/champ_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[6.903661] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/share/champ_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[6.921102] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/share/champ_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[6.922123] (-) TimerEvent: {}
+[6.940509] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/share/champ_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[6.958751] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/share/champ_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[6.975795] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/share/champ_msgs/cmake/rosidl_cmake_aggregate_target-extras.cmake\n'}
+[6.993600] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/share/champ_msgs/cmake/champ_msgsConfig.cmake\n'}
+[7.012289] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/share/champ_msgs/cmake/champ_msgsConfig-version.cmake\n'}
+[7.022238] (-) TimerEvent: {}
+[7.031794] (champ_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_msgs/share/champ_msgs/package.xml\n'}
+[7.050431] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/sacad/spotmicro_ws/install/champ_msgs/lib/libchamp_msgs__rosidl_generator_c.so\n'}
+[7.051205] (champ_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/sacad/spotmicro_ws/install/champ_msgs/lib/libchamp_msgs__rosidl_generator_c.so" to ""\n'}
+[7.051575] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/sacad/spotmicro_ws/install/champ_msgs/lib/libchamp_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[7.052033] (champ_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/sacad/spotmicro_ws/install/champ_msgs/lib/libchamp_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[7.052492] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/sacad/spotmicro_ws/install/champ_msgs/lib/libchamp_msgs__rosidl_typesupport_introspection_c.so\n'}
+[7.053279] (champ_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/sacad/spotmicro_ws/install/champ_msgs/lib/libchamp_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[7.053426] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/sacad/spotmicro_ws/install/champ_msgs/lib/libchamp_msgs__rosidl_typesupport_c.so\n'}
+[7.053969] (champ_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/sacad/spotmicro_ws/install/champ_msgs/lib/libchamp_msgs__rosidl_typesupport_c.so" to ""\n'}
+[7.054101] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/sacad/spotmicro_ws/install/champ_msgs/lib/libchamp_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[7.054829] (champ_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/sacad/spotmicro_ws/install/champ_msgs/lib/libchamp_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[7.055310] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/sacad/spotmicro_ws/install/champ_msgs/lib/libchamp_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[7.055857] (champ_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/sacad/spotmicro_ws/install/champ_msgs/lib/libchamp_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[7.056304] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/sacad/spotmicro_ws/install/champ_msgs/lib/libchamp_msgs__rosidl_typesupport_cpp.so\n'}
+[7.056709] (champ_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/sacad/spotmicro_ws/install/champ_msgs/lib/libchamp_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[7.122403] (-) TimerEvent: {}
+[7.161505] (champ_msgs) StdoutLine: {'line': b"Listing '/home/sacad/spotmicro_ws/install/champ_msgs/lib/python3.12/site-packages/champ_msgs'...\n"}
+[7.162108] (champ_msgs) StdoutLine: {'line': b"Compiling '/home/sacad/spotmicro_ws/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/__init__.py'...\n"}
+[7.162323] (champ_msgs) StdoutLine: {'line': b"Listing '/home/sacad/spotmicro_ws/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/msg'...\n"}
+[7.162456] (champ_msgs) StdoutLine: {'line': b"Compiling '/home/sacad/spotmicro_ws/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/msg/__init__.py'...\n"}
+[7.162536] (champ_msgs) StdoutLine: {'line': b"Compiling '/home/sacad/spotmicro_ws/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/msg/_contacts.py'...\n"}
+[7.162615] (champ_msgs) StdoutLine: {'line': b"Compiling '/home/sacad/spotmicro_ws/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/msg/_contacts_stamped.py'...\n"}
+[7.162693] (champ_msgs) StdoutLine: {'line': b"Compiling '/home/sacad/spotmicro_ws/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/msg/_imu.py'...\n"}
+[7.162769] (champ_msgs) StdoutLine: {'line': b"Compiling '/home/sacad/spotmicro_ws/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/msg/_joints.py'...\n"}
+[7.162858] (champ_msgs) StdoutLine: {'line': b"Compiling '/home/sacad/spotmicro_ws/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/msg/_pid.py'...\n"}
+[7.162934] (champ_msgs) StdoutLine: {'line': b"Compiling '/home/sacad/spotmicro_ws/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/msg/_point.py'...\n"}
+[7.163006] (champ_msgs) StdoutLine: {'line': b"Compiling '/home/sacad/spotmicro_ws/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/msg/_point_array.py'...\n"}
+[7.163077] (champ_msgs) StdoutLine: {'line': b"Compiling '/home/sacad/spotmicro_ws/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/msg/_pose.py'...\n"}
+[7.163212] (champ_msgs) StdoutLine: {'line': b"Compiling '/home/sacad/spotmicro_ws/install/champ_msgs/lib/python3.12/site-packages/champ_msgs/msg/_velocities.py'...\n"}
+[7.169904] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/sacad/spotmicro_ws/install/champ_msgs/lib/libchamp_msgs__rosidl_generator_py.so\n'}
+[7.170798] (champ_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/sacad/spotmicro_ws/install/champ_msgs/lib/libchamp_msgs__rosidl_generator_py.so" to ""\n'}
+[7.171259] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/sacad/spotmicro_ws/install/champ_msgs/share/champ_msgs/cmake/export_champ_msgs__rosidl_generator_cExport.cmake\n'}
+[7.171771] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/sacad/spotmicro_ws/install/champ_msgs/share/champ_msgs/cmake/export_champ_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[7.171927] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/sacad/spotmicro_ws/install/champ_msgs/share/champ_msgs/cmake/export_champ_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[7.172193] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/sacad/spotmicro_ws/install/champ_msgs/share/champ_msgs/cmake/export_champ_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[7.172527] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/sacad/spotmicro_ws/install/champ_msgs/share/champ_msgs/cmake/champ_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[7.172890] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/sacad/spotmicro_ws/install/champ_msgs/share/champ_msgs/cmake/champ_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[7.173198] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/sacad/spotmicro_ws/install/champ_msgs/share/champ_msgs/cmake/champ_msgs__rosidl_typesupport_cExport.cmake\n'}
+[7.173487] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/sacad/spotmicro_ws/install/champ_msgs/share/champ_msgs/cmake/champ_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[7.173984] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/sacad/spotmicro_ws/install/champ_msgs/share/champ_msgs/cmake/export_champ_msgs__rosidl_generator_cppExport.cmake\n'}
+[7.174433] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/sacad/spotmicro_ws/install/champ_msgs/share/champ_msgs/cmake/export_champ_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[7.174794] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/sacad/spotmicro_ws/install/champ_msgs/share/champ_msgs/cmake/export_champ_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[7.175103] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/sacad/spotmicro_ws/install/champ_msgs/share/champ_msgs/cmake/champ_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[7.175417] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/sacad/spotmicro_ws/install/champ_msgs/share/champ_msgs/cmake/champ_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[7.175735] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/sacad/spotmicro_ws/install/champ_msgs/share/champ_msgs/cmake/champ_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[7.176120] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/sacad/spotmicro_ws/install/champ_msgs/share/champ_msgs/cmake/champ_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[7.176473] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/sacad/spotmicro_ws/install/champ_msgs/share/champ_msgs/cmake/export_champ_msgs__rosidl_generator_pyExport.cmake\n'}
+[7.176774] (champ_msgs) StdoutLine: {'line': b'-- Installing: /home/sacad/spotmicro_ws/install/champ_msgs/share/champ_msgs/cmake/export_champ_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[7.181269] (champ_msgs) CommandEnded: {'returncode': 0}
+[7.222697] (-) TimerEvent: {}
+[7.323362] (-) TimerEvent: {}
+[7.330466] (champ_msgs) JobEnded: {'identifier': 'champ_msgs', 'rc': 0}
+[7.332089] (champ_base) JobStarted: {'identifier': 'champ_base'}
+[7.423576] (-) TimerEvent: {}
+[7.524082] (-) TimerEvent: {}
+[7.565639] (champ_base) JobProgress: {'identifier': 'champ_base', 'progress': 'cmake'}
+[7.570390] (champ_base) Command: {'cmd': ['/usr/bin/cmake', '/home/sacad/spotmicro_ws/src/spotmicro_locomotion_ros2/champ_base', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/sacad/spotmicro_ws/install/champ_base'], 'cwd': '/home/sacad/spotmicro_ws/build/champ_base', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'sacad', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/sacad/spotmicro_ws/install/champ_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'WT_PROFILE_ID': '{61c54bbd-c2c6-5271-96e7-009a87ff44bf}', 'HOME': '/home/sacad', 'OLDPWD': '/home/sacad/spotmicro_ws/src', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'sacad', 'NAME': 'ASMECH', 'WSL_INTEROP': '/run/WSL/664_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/usr/lib/linux-tools/6.18.54.1-microsoft-standard-WSL2/bin:/mnt/c/Program Files/Eclipse Adoptium/jdk-17.0.16.8-hotspot/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/WSL/:/mnt/c/Users/sacad/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/sacad/AppData/Local/Python/bin:/snap/bin', 'WT_SESSION': '59146605-3dbe-47e3-a1c8-155b2d2d4747', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'PERF_EXEC_PATH': '/usr/lib/linux-tools/6.18.54.1-microsoft-standard-WSL2/libexec/perf-core', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/sacad/spotmicro_ws/install/champ_msgs:/home/sacad/spotmicro_ws/install/champ:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/sacad/spotmicro_ws/build/champ_base', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/sacad/spotmicro_ws/install/champ_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_sim_vendor/lib/python:/opt/ros/jazzy/opt/sdformat_vendor/lib/python:/opt/ros/jazzy/opt/gz_transport_vendor/lib/python:/opt/ros/jazzy/opt/gz_msgs_vendor/lib/python:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/sacad/spotmicro_ws/install/champ_msgs:/home/sacad/spotmicro_ws/install/champ:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}), 'shell': False}
+[7.624260] (-) TimerEvent: {}
+[7.724737] (-) TimerEvent: {}
+[7.825179] (-) TimerEvent: {}
+[7.849026] (champ_base) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[7.925435] (-) TimerEvent: {}
+[8.025997] (-) TimerEvent: {}
+[8.126471] (-) TimerEvent: {}
+[8.226931] (-) TimerEvent: {}
+[8.327362] (-) TimerEvent: {}
+[8.427777] (-) TimerEvent: {}
+[8.528198] (-) TimerEvent: {}
+[8.565106] (champ_base) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[8.628364] (-) TimerEvent: {}
+[8.728803] (-) TimerEvent: {}
+[8.829382] (-) TimerEvent: {}
+[8.930199] (-) TimerEvent: {}
+[9.030663] (-) TimerEvent: {}
+[9.131053] (-) TimerEvent: {}
+[9.173329] (champ_base) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[9.231227] (-) TimerEvent: {}
+[9.331680] (-) TimerEvent: {}
+[9.432126] (-) TimerEvent: {}
+[9.513921] (champ_base) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[9.527818] (champ_base) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[9.532385] (-) TimerEvent: {}
+[9.538991] (champ_base) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[9.540073] (champ_base) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[9.632625] (-) TimerEvent: {}
+[9.637458] (champ_base) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[9.732785] (-) TimerEvent: {}
+[9.833270] (-) TimerEvent: {}
+[9.933727] (-) TimerEvent: {}
+[9.958061] (champ_base) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[9.971612] (champ_base) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[9.972147] (champ_base) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[9.972858] (champ_base) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[9.991512] (champ_base) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[10.033813] (-) TimerEvent: {}
+[10.134664] (-) TimerEvent: {}
+[10.235182] (-) TimerEvent: {}
+[10.262273] (champ_base) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[10.335356] (-) TimerEvent: {}
+[10.382555] (champ_base) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[10.435501] (-) TimerEvent: {}
+[10.495600] (champ_base) StdoutLine: {'line': b'-- Found rclcpp: 28.1.22 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[10.535570] (-) TimerEvent: {}
+[10.635968] (-) TimerEvent: {}
+[10.736437] (-) TimerEvent: {}
+[10.751017] (champ_base) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[10.783333] (champ_base) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[10.829441] (champ_base) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[10.836594] (-) TimerEvent: {}
+[10.870714] (champ_base) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[10.936855] (-) TimerEvent: {}
+[11.037709] (-) TimerEvent: {}
+[11.046565] (champ_base) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.4 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[11.054617] (champ_base) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[11.137907] (-) TimerEvent: {}
+[11.238381] (-) TimerEvent: {}
+[11.340092] (-) TimerEvent: {}
+[11.382817] (champ_base) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[11.440259] (-) TimerEvent: {}
+[11.540838] (-) TimerEvent: {}
+[11.581103] (champ_base) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[11.640985] (-) TimerEvent: {}
+[11.712494] (champ_base) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[11.741140] (-) TimerEvent: {}
+[11.841656] (-) TimerEvent: {}
+[11.942084] (-) TimerEvent: {}
+[12.031057] (champ_base) StdoutLine: {'line': b'-- Found rclpy: 7.1.12 (/opt/ros/jazzy/share/rclpy/cmake)\n'}
+[12.031959] (champ_base) StdoutLine: {'line': b'-- Found champ_msgs: 0.1.0 (/home/sacad/spotmicro_ws/install/champ_msgs/share/champ_msgs/cmake)\n'}
+[12.042221] (-) TimerEvent: {}
+[12.142585] (-) TimerEvent: {}
+[12.151453] (champ_base) StdoutLine: {'line': b'-- Found visualization_msgs: 5.3.8 (/opt/ros/jazzy/share/visualization_msgs/cmake)\n'}
+[12.242767] (-) TimerEvent: {}
+[12.312930] (champ_base) StdoutLine: {'line': b'-- Found trajectory_msgs: 5.3.8 (/opt/ros/jazzy/share/trajectory_msgs/cmake)\n'}
+[12.342959] (-) TimerEvent: {}
+[12.443462] (-) TimerEvent: {}
+[12.463842] (champ_base) StdoutLine: {'line': b'-- Found nav_msgs: 5.3.8 (/opt/ros/jazzy/share/nav_msgs/cmake)\n'}
+[12.527406] (champ_base) StdoutLine: {'line': b'-- Found tf2_ros: 0.36.23 (/opt/ros/jazzy/share/tf2_ros/cmake)\n'}
+[12.543738] (-) TimerEvent: {}
+[12.644200] (-) TimerEvent: {}
+[12.744726] (-) TimerEvent: {}
+[12.845188] (-) TimerEvent: {}
+[12.945688] (-) TimerEvent: {}
+[12.970722] (champ_base) StdoutLine: {'line': b'-- Found urdf: 2.10.1 (/opt/ros/jazzy/share/urdf/cmake)\n'}
+[13.045878] (-) TimerEvent: {}
+[13.054632] (champ_base) StdoutLine: {'line': b'-- Found champ: 0.1.0 (/home/sacad/spotmicro_ws/install/champ/share/champ/cmake)\n'}
+[13.145975] (-) TimerEvent: {}
+[13.246455] (-) TimerEvent: {}
+[13.257324] (champ_base) StdoutLine: {'line': b'-- Configuring done (5.7s)\n'}
+[13.346635] (-) TimerEvent: {}
+[13.357086] (champ_base) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[13.378782] (champ_base) StdoutLine: {'line': b'-- Build files have been written to: /home/sacad/spotmicro_ws/build/champ_base\n'}
+[13.399716] (champ_base) CommandEnded: {'returncode': 0}
+[13.401663] (champ_base) JobProgress: {'identifier': 'champ_base', 'progress': 'build'}
+[13.401735] (champ_base) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sacad/spotmicro_ws/build/champ_base', '--', '-j16', '-l16'], 'cwd': '/home/sacad/spotmicro_ws/build/champ_base', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'sacad', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/sacad/spotmicro_ws/install/champ_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'WT_PROFILE_ID': '{61c54bbd-c2c6-5271-96e7-009a87ff44bf}', 'HOME': '/home/sacad', 'OLDPWD': '/home/sacad/spotmicro_ws/src', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'sacad', 'NAME': 'ASMECH', 'WSL_INTEROP': '/run/WSL/664_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/usr/lib/linux-tools/6.18.54.1-microsoft-standard-WSL2/bin:/mnt/c/Program Files/Eclipse Adoptium/jdk-17.0.16.8-hotspot/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/WSL/:/mnt/c/Users/sacad/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/sacad/AppData/Local/Python/bin:/snap/bin', 'WT_SESSION': '59146605-3dbe-47e3-a1c8-155b2d2d4747', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'PERF_EXEC_PATH': '/usr/lib/linux-tools/6.18.54.1-microsoft-standard-WSL2/libexec/perf-core', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/sacad/spotmicro_ws/install/champ_msgs:/home/sacad/spotmicro_ws/install/champ:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/sacad/spotmicro_ws/build/champ_base', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/sacad/spotmicro_ws/install/champ_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_sim_vendor/lib/python:/opt/ros/jazzy/opt/sdformat_vendor/lib/python:/opt/ros/jazzy/opt/gz_transport_vendor/lib/python:/opt/ros/jazzy/opt/gz_msgs_vendor/lib/python:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/sacad/spotmicro_ws/install/champ_msgs:/home/sacad/spotmicro_ws/install/champ:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}), 'shell': False}
+[13.446750] (-) TimerEvent: {}
+[13.512595] (champ_base) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object CMakeFiles/quadruped_controller.dir/src/quadruped_controller.cpp.o\x1b[0m\n'}
+[13.512903] (champ_base) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/message_relay.dir/src/message_relay.cpp.o\x1b[0m\n'}
+[13.513151] (champ_base) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/state_estimation.dir/src/state_estimation.cpp.o\x1b[0m\n'}
+[13.546843] (-) TimerEvent: {}
+[13.647335] (-) TimerEvent: {}
+[13.748203] (-) TimerEvent: {}
+[13.848646] (-) TimerEvent: {}
+[13.949033] (-) TimerEvent: {}
+[14.049569] (-) TimerEvent: {}
+[14.150025] (-) TimerEvent: {}
+[14.250536] (-) TimerEvent: {}
+[14.351049] (-) TimerEvent: {}
+[14.451392] (-) TimerEvent: {}
+[14.551814] (-) TimerEvent: {}
+[14.653032] (-) TimerEvent: {}
+[14.753714] (-) TimerEvent: {}
+[14.854196] (-) TimerEvent: {}
+[14.954669] (-) TimerEvent: {}
+[15.055072] (-) TimerEvent: {}
+[15.155535] (-) TimerEvent: {}
+[15.256291] (-) TimerEvent: {}
+[15.356834] (-) TimerEvent: {}
+[15.457366] (-) TimerEvent: {}
+[15.558249] (-) TimerEvent: {}
+[15.658761] (-) TimerEvent: {}
+[15.759205] (-) TimerEvent: {}
+[15.859732] (-) TimerEvent: {}
+[15.960345] (-) TimerEvent: {}
+[16.060827] (-) TimerEvent: {}
+[16.161275] (-) TimerEvent: {}
+[16.261882] (-) TimerEvent: {}
+[16.362390] (-) TimerEvent: {}
+[16.462799] (-) TimerEvent: {}
+[16.563179] (-) TimerEvent: {}
+[16.663791] (-) TimerEvent: {}
+[16.764411] (-) TimerEvent: {}
+[16.864942] (-) TimerEvent: {}
+[16.965347] (-) TimerEvent: {}
+[17.065844] (-) TimerEvent: {}
+[17.166332] (-) TimerEvent: {}
+[17.266802] (-) TimerEvent: {}
+[17.367332] (-) TimerEvent: {}
+[17.467711] (-) TimerEvent: {}
+[17.568164] (-) TimerEvent: {}
+[17.668556] (-) TimerEvent: {}
+[17.769054] (-) TimerEvent: {}
+[17.869882] (-) TimerEvent: {}
+[17.970713] (-) TimerEvent: {}
+[18.071189] (-) TimerEvent: {}
+[18.171718] (-) TimerEvent: {}
+[18.272125] (-) TimerEvent: {}
+[18.372594] (-) TimerEvent: {}
+[18.473048] (-) TimerEvent: {}
+[18.573475] (-) TimerEvent: {}
+[18.673925] (-) TimerEvent: {}
+[18.774425] (-) TimerEvent: {}
+[18.875190] (-) TimerEvent: {}
+[18.976201] (-) TimerEvent: {}
+[19.077141] (-) TimerEvent: {}
+[19.178142] (-) TimerEvent: {}
+[19.279062] (-) TimerEvent: {}
+[19.380091] (-) TimerEvent: {}
+[19.481018] (-) TimerEvent: {}
+[19.582053] (-) TimerEvent: {}
+[19.682998] (-) TimerEvent: {}
+[19.784023] (-) TimerEvent: {}
+[19.884969] (-) TimerEvent: {}
+[19.985617] (-) TimerEvent: {}
+[20.086630] (-) TimerEvent: {}
+[20.187619] (-) TimerEvent: {}
+[20.293016] (-) TimerEvent: {}
+[20.394199] (-) TimerEvent: {}
+[20.495248] (-) TimerEvent: {}
+[20.596151] (-) TimerEvent: {}
+[20.697125] (-) TimerEvent: {}
+[20.798279] (-) TimerEvent: {}
+[20.899206] (-) TimerEvent: {}
+[21.000173] (-) TimerEvent: {}
+[21.101319] (-) TimerEvent: {}
+[21.202575] (-) TimerEvent: {}
+[21.303504] (-) TimerEvent: {}
+[21.404703] (-) TimerEvent: {}
+[21.506124] (-) TimerEvent: {}
+[21.607269] (-) TimerEvent: {}
+[21.708218] (-) TimerEvent: {}
+[21.809349] (-) TimerEvent: {}
+[21.910533] (-) TimerEvent: {}
+[22.011508] (-) TimerEvent: {}
+[22.112451] (-) TimerEvent: {}
+[22.213489] (-) TimerEvent: {}
+[22.314557] (-) TimerEvent: {}
+[22.415999] (-) TimerEvent: {}
+[22.516971] (-) TimerEvent: {}
+[22.617975] (-) TimerEvent: {}
+[22.718951] (-) TimerEvent: {}
+[22.819967] (-) TimerEvent: {}
+[22.921259] (-) TimerEvent: {}
+[23.022352] (-) TimerEvent: {}
+[23.123360] (-) TimerEvent: {}
+[23.224390] (-) TimerEvent: {}
+[23.325583] (-) TimerEvent: {}
+[23.426189] (-) TimerEvent: {}
+[23.526631] (-) TimerEvent: {}
+[23.627176] (-) TimerEvent: {}
+[23.727672] (-) TimerEvent: {}
+[23.828252] (-) TimerEvent: {}
+[23.928799] (-) TimerEvent: {}
+[24.029325] (-) TimerEvent: {}
+[24.129859] (-) TimerEvent: {}
+[24.230399] (-) TimerEvent: {}
+[24.330836] (-) TimerEvent: {}
+[24.431320] (-) TimerEvent: {}
+[24.531797] (-) TimerEvent: {}
+[24.632309] (-) TimerEvent: {}
+[24.732767] (-) TimerEvent: {}
+[24.833161] (-) TimerEvent: {}
+[24.933664] (-) TimerEvent: {}
+[25.034229] (-) TimerEvent: {}
+[25.134953] (-) TimerEvent: {}
+[25.235487] (-) TimerEvent: {}
+[25.335978] (-) TimerEvent: {}
+[25.436403] (-) TimerEvent: {}
+[25.536883] (-) TimerEvent: {}
+[25.637472] (-) TimerEvent: {}
+[25.738246] (-) TimerEvent: {}
+[25.838757] (-) TimerEvent: {}
+[25.939231] (-) TimerEvent: {}
+[26.039928] (-) TimerEvent: {}
+[26.140449] (-) TimerEvent: {}
+[26.242192] (-) TimerEvent: {}
+[26.342623] (-) TimerEvent: {}
+[26.443193] (-) TimerEvent: {}
+[26.543718] (-) TimerEvent: {}
+[26.644259] (-) TimerEvent: {}
+[26.744913] (-) TimerEvent: {}
+[26.845485] (-) TimerEvent: {}
+[26.946358] (-) TimerEvent: {}
+[27.047036] (-) TimerEvent: {}
+[27.147617] (-) TimerEvent: {}
+[27.248352] (-) TimerEvent: {}
+[27.349169] (-) TimerEvent: {}
+[27.449695] (-) TimerEvent: {}
+[27.550310] (-) TimerEvent: {}
+[27.651078] (-) TimerEvent: {}
+[27.751784] (-) TimerEvent: {}
+[27.852425] (-) TimerEvent: {}
+[27.953187] (-) TimerEvent: {}
+[28.054263] (-) TimerEvent: {}
+[28.155088] (-) TimerEvent: {}
+[28.256064] (-) TimerEvent: {}
+[28.356824] (-) TimerEvent: {}
+[28.457365] (-) TimerEvent: {}
+[28.557958] (-) TimerEvent: {}
+[28.658507] (-) TimerEvent: {}
+[28.759029] (-) TimerEvent: {}
+[28.859597] (-) TimerEvent: {}
+[28.960205] (-) TimerEvent: {}
+[29.061049] (-) TimerEvent: {}
+[29.161706] (-) TimerEvent: {}
+[29.262278] (-) TimerEvent: {}
+[29.362849] (-) TimerEvent: {}
+[29.463591] (-) TimerEvent: {}
+[29.564292] (-) TimerEvent: {}
+[29.665018] (-) TimerEvent: {}
+[29.765734] (-) TimerEvent: {}
+[29.866395] (-) TimerEvent: {}
+[29.967011] (-) TimerEvent: {}
+[30.067762] (-) TimerEvent: {}
+[30.168432] (-) TimerEvent: {}
+[30.269102] (-) TimerEvent: {}
+[30.369752] (-) TimerEvent: {}
+[30.470362] (-) TimerEvent: {}
+[30.571007] (-) TimerEvent: {}
+[30.671800] (-) TimerEvent: {}
+[30.772511] (-) TimerEvent: {}
+[30.873148] (-) TimerEvent: {}
+[30.974535] (-) TimerEvent: {}
+[31.075287] (-) TimerEvent: {}
+[31.176329] (-) TimerEvent: {}
+[31.277081] (-) TimerEvent: {}
+[31.377718] (-) TimerEvent: {}
+[31.478320] (-) TimerEvent: {}
+[31.578932] (-) TimerEvent: {}
+[31.679699] (-) TimerEvent: {}
+[31.780366] (-) TimerEvent: {}
+[31.880976] (-) TimerEvent: {}
+[31.981807] (-) TimerEvent: {}
+[32.082466] (-) TimerEvent: {}
+[32.183075] (-) TimerEvent: {}
+[32.283773] (-) TimerEvent: {}
+[32.384384] (-) TimerEvent: {}
+[32.485029] (-) TimerEvent: {}
+[32.585679] (-) TimerEvent: {}
+[32.686383] (-) TimerEvent: {}
+[32.787106] (-) TimerEvent: {}
+[32.887876] (-) TimerEvent: {}
+[32.988559] (-) TimerEvent: {}
+[33.089215] (-) TimerEvent: {}
+[33.189815] (-) TimerEvent: {}
+[33.290306] (-) TimerEvent: {}
+[33.390887] (-) TimerEvent: {}
+[33.491481] (-) TimerEvent: {}
+[33.592178] (-) TimerEvent: {}
+[33.692852] (-) TimerEvent: {}
+[33.793655] (-) TimerEvent: {}
+[33.894928] (-) TimerEvent: {}
+[33.995654] (-) TimerEvent: {}
+[34.096285] (-) TimerEvent: {}
+[34.197005] (-) TimerEvent: {}
+[34.297682] (-) TimerEvent: {}
+[34.398353] (-) TimerEvent: {}
+[34.499062] (-) TimerEvent: {}
+[34.599772] (-) TimerEvent: {}
+[34.700425] (-) TimerEvent: {}
+[34.801122] (-) TimerEvent: {}
+[34.902188] (-) TimerEvent: {}
+[35.003907] (-) TimerEvent: {}
+[35.105972] (-) TimerEvent: {}
+[35.207884] (-) TimerEvent: {}
+[35.309976] (-) TimerEvent: {}
+[35.411787] (-) TimerEvent: {}
+[35.513510] (-) TimerEvent: {}
+[35.564067] (champ_base) StdoutLine: {'line': b'[ 33%] \x1b[32m\x1b[1mLinking CXX shared library libquadruped_controller.so\x1b[0m\n'}
+[35.614353] (-) TimerEvent: {}
+[35.716114] (-) TimerEvent: {}
+[35.816691] (-) TimerEvent: {}
+[35.918418] (-) TimerEvent: {}
+[36.020179] (-) TimerEvent: {}
+[36.122034] (-) TimerEvent: {}
+[36.223760] (-) TimerEvent: {}
+[36.325500] (-) TimerEvent: {}
+[36.427287] (-) TimerEvent: {}
+[36.529067] (-) TimerEvent: {}
+[36.630729] (-) TimerEvent: {}
+[36.661977] (champ_base) StdoutLine: {'line': b'[ 33%] Built target quadruped_controller\n'}
+[36.707428] (champ_base) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/quadruped_controller_node.dir/src/quadruped_controller_node.cpp.o\x1b[0m\n'}
+[36.730925] (-) TimerEvent: {}
+[36.831333] (-) TimerEvent: {}
+[36.931823] (-) TimerEvent: {}
+[37.032371] (-) TimerEvent: {}
+[37.132837] (-) TimerEvent: {}
+[37.233379] (-) TimerEvent: {}
+[37.333812] (-) TimerEvent: {}
+[37.434271] (-) TimerEvent: {}
+[37.534785] (-) TimerEvent: {}
+[37.635306] (-) TimerEvent: {}
+[37.735786] (-) TimerEvent: {}
+[37.836355] (-) TimerEvent: {}
+[37.936956] (-) TimerEvent: {}
+[38.037411] (-) TimerEvent: {}
+[38.138039] (-) TimerEvent: {}
+[38.238656] (-) TimerEvent: {}
+[38.339219] (-) TimerEvent: {}
+[38.439658] (-) TimerEvent: {}
+[38.540177] (-) TimerEvent: {}
+[38.640780] (-) TimerEvent: {}
+[38.741426] (-) TimerEvent: {}
+[38.841875] (-) TimerEvent: {}
+[38.942295] (-) TimerEvent: {}
+[39.042716] (-) TimerEvent: {}
+[39.143127] (-) TimerEvent: {}
+[39.243576] (-) TimerEvent: {}
+[39.344074] (-) TimerEvent: {}
+[39.444600] (-) TimerEvent: {}
+[39.545182] (-) TimerEvent: {}
+[39.645633] (-) TimerEvent: {}
+[39.746146] (-) TimerEvent: {}
+[39.846764] (-) TimerEvent: {}
+[39.947307] (-) TimerEvent: {}
+[40.047774] (-) TimerEvent: {}
+[40.148280] (-) TimerEvent: {}
+[40.253301] (-) TimerEvent: {}
+[40.353826] (-) TimerEvent: {}
+[40.454398] (-) TimerEvent: {}
+[40.554942] (-) TimerEvent: {}
+[40.655475] (-) TimerEvent: {}
+[40.755960] (-) TimerEvent: {}
+[40.856457] (-) TimerEvent: {}
+[40.956948] (-) TimerEvent: {}
+[41.057538] (-) TimerEvent: {}
+[41.158166] (-) TimerEvent: {}
+[41.258683] (-) TimerEvent: {}
+[41.359193] (-) TimerEvent: {}
+[41.459681] (-) TimerEvent: {}
+[41.560191] (-) TimerEvent: {}
+[41.660656] (-) TimerEvent: {}
+[41.761142] (-) TimerEvent: {}
+[41.802517] (champ_base) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX shared library libmessage_relay.so\x1b[0m\n'}
+[41.861343] (-) TimerEvent: {}
+[41.961928] (-) TimerEvent: {}
+[42.062415] (-) TimerEvent: {}
+[42.162918] (-) TimerEvent: {}
+[42.263454] (-) TimerEvent: {}
+[42.364061] (-) TimerEvent: {}
+[42.464580] (-) TimerEvent: {}
+[42.565143] (-) TimerEvent: {}
+[42.665833] (-) TimerEvent: {}
+[42.766452] (-) TimerEvent: {}
+[42.867053] (-) TimerEvent: {}
+[42.894766] (champ_base) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX executable quadruped_controller_node\x1b[0m\n'}
+[42.967270] (-) TimerEvent: {}
+[42.968763] (champ_base) StdoutLine: {'line': b'[ 58%] Built target message_relay\n'}
+[43.011905] (champ_base) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/message_relay_node.dir/src/message_relay_node.cpp.o\x1b[0m\n'}
+[43.067565] (-) TimerEvent: {}
+[43.168260] (-) TimerEvent: {}
+[43.268910] (-) TimerEvent: {}
+[43.369646] (-) TimerEvent: {}
+[43.470865] (-) TimerEvent: {}
+[43.519724] (champ_base) StdoutLine: {'line': b'[ 66%] Built target quadruped_controller_node\n'}
+[43.571139] (-) TimerEvent: {}
+[43.671757] (-) TimerEvent: {}
+[43.772286] (-) TimerEvent: {}
+[43.872976] (-) TimerEvent: {}
+[43.973677] (-) TimerEvent: {}
+[44.074773] (-) TimerEvent: {}
+[44.175727] (-) TimerEvent: {}
+[44.276317] (-) TimerEvent: {}
+[44.376830] (-) TimerEvent: {}
+[44.477335] (-) TimerEvent: {}
+[44.577992] (-) TimerEvent: {}
+[44.678645] (-) TimerEvent: {}
+[44.779313] (-) TimerEvent: {}
+[44.879766] (-) TimerEvent: {}
+[44.937334] (champ_base) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX shared library libstate_estimation.so\x1b[0m\n'}
+[44.979936] (-) TimerEvent: {}
+[45.080433] (-) TimerEvent: {}
+[45.180886] (-) TimerEvent: {}
+[45.281498] (-) TimerEvent: {}
+[45.382097] (-) TimerEvent: {}
+[45.482705] (-) TimerEvent: {}
+[45.583379] (-) TimerEvent: {}
+[45.684017] (-) TimerEvent: {}
+[45.784531] (-) TimerEvent: {}
+[45.885009] (-) TimerEvent: {}
+[45.985939] (-) TimerEvent: {}
+[46.086692] (-) TimerEvent: {}
+[46.165934] (champ_base) StdoutLine: {'line': b'[ 75%] Built target state_estimation\n'}
+[46.186978] (-) TimerEvent: {}
+[46.212932] (champ_base) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/state_estimation_node.dir/src/state_estimation_node.cpp.o\x1b[0m\n'}
+[46.287262] (-) TimerEvent: {}
+[46.387784] (-) TimerEvent: {}
+[46.488849] (-) TimerEvent: {}
+[46.589439] (-) TimerEvent: {}
+[46.690168] (-) TimerEvent: {}
+[46.790760] (-) TimerEvent: {}
+[46.891786] (-) TimerEvent: {}
+[46.992442] (-) TimerEvent: {}
+[47.093441] (-) TimerEvent: {}
+[47.194125] (-) TimerEvent: {}
+[47.294667] (-) TimerEvent: {}
+[47.395213] (-) TimerEvent: {}
+[47.496088] (-) TimerEvent: {}
+[47.597047] (-) TimerEvent: {}
+[47.697850] (-) TimerEvent: {}
+[47.798424] (-) TimerEvent: {}
+[47.899227] (-) TimerEvent: {}
+[47.999853] (-) TimerEvent: {}
+[48.100391] (-) TimerEvent: {}
+[48.200953] (-) TimerEvent: {}
+[48.301653] (-) TimerEvent: {}
+[48.402241] (-) TimerEvent: {}
+[48.503264] (-) TimerEvent: {}
+[48.603995] (-) TimerEvent: {}
+[48.704639] (-) TimerEvent: {}
+[48.805134] (-) TimerEvent: {}
+[48.905674] (-) TimerEvent: {}
+[49.006197] (-) TimerEvent: {}
+[49.106617] (-) TimerEvent: {}
+[49.203653] (champ_base) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking CXX executable message_relay_node\x1b[0m\n'}
+[49.206754] (-) TimerEvent: {}
+[49.307197] (-) TimerEvent: {}
+[49.407692] (-) TimerEvent: {}
+[49.508162] (-) TimerEvent: {}
+[49.608742] (-) TimerEvent: {}
+[49.709653] (-) TimerEvent: {}
+[49.810248] (-) TimerEvent: {}
+[49.910754] (-) TimerEvent: {}
+[49.916288] (champ_base) StdoutLine: {'line': b'[ 91%] Built target message_relay_node\n'}
+[50.011074] (-) TimerEvent: {}
+[50.111826] (-) TimerEvent: {}
+[50.212500] (-) TimerEvent: {}
+[50.313169] (-) TimerEvent: {}
+[50.413931] (-) TimerEvent: {}
+[50.514514] (-) TimerEvent: {}
+[50.615135] (-) TimerEvent: {}
+[50.715737] (-) TimerEvent: {}
+[50.816257] (-) TimerEvent: {}
+[50.916884] (-) TimerEvent: {}
+[51.017674] (-) TimerEvent: {}
+[51.118198] (-) TimerEvent: {}
+[51.218687] (-) TimerEvent: {}
+[51.319301] (-) TimerEvent: {}
+[51.419802] (-) TimerEvent: {}
+[51.520429] (-) TimerEvent: {}
+[51.620883] (-) TimerEvent: {}
+[51.721473] (-) TimerEvent: {}
+[51.822138] (-) TimerEvent: {}
+[51.922732] (-) TimerEvent: {}
+[52.023456] (-) TimerEvent: {}
+[52.124091] (-) TimerEvent: {}
+[52.224737] (-) TimerEvent: {}
+[52.325446] (-) TimerEvent: {}
+[52.426305] (-) TimerEvent: {}
+[52.526845] (-) TimerEvent: {}
+[52.627662] (-) TimerEvent: {}
+[52.728212] (-) TimerEvent: {}
+[52.828711] (-) TimerEvent: {}
+[52.929178] (-) TimerEvent: {}
+[53.029628] (-) TimerEvent: {}
+[53.130134] (-) TimerEvent: {}
+[53.230587] (-) TimerEvent: {}
+[53.331125] (-) TimerEvent: {}
+[53.431661] (-) TimerEvent: {}
+[53.532311] (-) TimerEvent: {}
+[53.633013] (-) TimerEvent: {}
+[53.733695] (-) TimerEvent: {}
+[53.834664] (-) TimerEvent: {}
+[53.935316] (-) TimerEvent: {}
+[54.035927] (-) TimerEvent: {}
+[54.136534] (-) TimerEvent: {}
+[54.237270] (-) TimerEvent: {}
+[54.338042] (-) TimerEvent: {}
+[54.438657] (-) TimerEvent: {}
+[54.539174] (-) TimerEvent: {}
+[54.639683] (-) TimerEvent: {}
+[54.740222] (-) TimerEvent: {}
+[54.840858] (-) TimerEvent: {}
+[54.858580] (champ_base) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable state_estimation_node\x1b[0m\n'}
+[54.941027] (-) TimerEvent: {}
+[55.041538] (-) TimerEvent: {}
+[55.142351] (-) TimerEvent: {}
+[55.242941] (-) TimerEvent: {}
+[55.343788] (-) TimerEvent: {}
+[55.444326] (-) TimerEvent: {}
+[55.545150] (-) TimerEvent: {}
+[55.615539] (champ_base) StdoutLine: {'line': b'[100%] Built target state_estimation_node\n'}
+[55.635515] (champ_base) CommandEnded: {'returncode': 0}
+[55.637357] (champ_base) JobProgress: {'identifier': 'champ_base', 'progress': 'install'}
+[55.638327] (champ_base) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sacad/spotmicro_ws/build/champ_base'], 'cwd': '/home/sacad/spotmicro_ws/build/champ_base', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'sacad', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/sacad/spotmicro_ws/install/champ_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'WT_PROFILE_ID': '{61c54bbd-c2c6-5271-96e7-009a87ff44bf}', 'HOME': '/home/sacad', 'OLDPWD': '/home/sacad/spotmicro_ws/src', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'sacad', 'NAME': 'ASMECH', 'WSL_INTEROP': '/run/WSL/664_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/usr/lib/linux-tools/6.18.54.1-microsoft-standard-WSL2/bin:/mnt/c/Program Files/Eclipse Adoptium/jdk-17.0.16.8-hotspot/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/WSL/:/mnt/c/Users/sacad/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/sacad/AppData/Local/Python/bin:/snap/bin', 'WT_SESSION': '59146605-3dbe-47e3-a1c8-155b2d2d4747', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'PERF_EXEC_PATH': '/usr/lib/linux-tools/6.18.54.1-microsoft-standard-WSL2/libexec/perf-core', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/sacad/spotmicro_ws/install/champ_msgs:/home/sacad/spotmicro_ws/install/champ:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/sacad/spotmicro_ws/build/champ_base', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/sacad/spotmicro_ws/install/champ_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_sim_vendor/lib/python:/opt/ros/jazzy/opt/sdformat_vendor/lib/python:/opt/ros/jazzy/opt/gz_transport_vendor/lib/python:/opt/ros/jazzy/opt/gz_msgs_vendor/lib/python:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/sacad/spotmicro_ws/install/champ_msgs:/home/sacad/spotmicro_ws/install/champ:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}), 'shell': False}
+[55.645430] (-) TimerEvent: {}
+[55.654101] (champ_base) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[55.654856] (champ_base) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[55.661336] (champ_base) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_base/share/champ_base/config/ekf/base_to_footprint.yaml\n'}
+[55.682549] (champ_base) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_base/share/champ_base/config/ekf/footprint_to_odom.yaml\n'}
+[55.702143] (champ_base) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_base/share/champ_base/config/velocity_smoother/velocity_smoother.yaml\n'}
+[55.721738] (champ_base) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_base/lib/libquadruped_controller.so\n'}
+[55.742288] (champ_base) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_base/bin/quadruped_controller_node\n'}
+[55.745714] (-) TimerEvent: {}
+[55.760263] (champ_base) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_base/lib/libmessage_relay.so\n'}
+[55.777229] (champ_base) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_base/bin/message_relay_node\n'}
+[55.795481] (champ_base) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_base/lib/libstate_estimation.so\n'}
+[55.813890] (champ_base) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_base/bin/state_estimation_node\n'}
+[55.832810] (champ_base) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_base/lib/champ_base/quadruped_controller_node\n'}
+[55.845945] (-) TimerEvent: {}
+[55.850974] (champ_base) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_base/lib/champ_base/message_relay_node\n'}
+[55.870190] (champ_base) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_base/lib/champ_base/state_estimation_node\n'}
+[55.891911] (champ_base) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_base/share/ament_index/resource_index/package_run_dependencies/champ_base\n'}
+[55.909489] (champ_base) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_base/share/ament_index/resource_index/parent_prefix_path/champ_base\n'}
+[55.928802] (champ_base) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_base/share/champ_base/environment/ament_prefix_path.sh\n'}
+[55.946182] (-) TimerEvent: {}
+[55.947210] (champ_base) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_base/share/champ_base/environment/ament_prefix_path.dsv\n'}
+[55.967044] (champ_base) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_base/share/champ_base/environment/path.sh\n'}
+[55.986701] (champ_base) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_base/share/champ_base/environment/path.dsv\n'}
+[56.006739] (champ_base) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_base/share/champ_base/local_setup.bash\n'}
+[56.025672] (champ_base) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_base/share/champ_base/local_setup.sh\n'}
+[56.043541] (champ_base) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_base/share/champ_base/local_setup.zsh\n'}
+[56.046314] (-) TimerEvent: {}
+[56.062476] (champ_base) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_base/share/champ_base/local_setup.dsv\n'}
+[56.081354] (champ_base) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_base/share/champ_base/package.dsv\n'}
+[56.100335] (champ_base) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_base/share/ament_index/resource_index/packages/champ_base\n'}
+[56.122220] (champ_base) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_base/share/champ_base/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[56.142377] (champ_base) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_base/share/champ_base/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[56.146465] (-) TimerEvent: {}
+[56.163093] (champ_base) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_base/share/champ_base/cmake/champ_baseConfig.cmake\n'}
+[56.183524] (champ_base) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_base/share/champ_base/cmake/champ_baseConfig-version.cmake\n'}
+[56.206393] (champ_base) StdoutLine: {'line': b'-- Symlinking: /home/sacad/spotmicro_ws/install/champ_base/share/champ_base/package.xml\n'}
+[56.232309] (champ_base) CommandEnded: {'returncode': 0}
+[56.246654] (-) TimerEvent: {}
+[56.266938] (champ_base) JobEnded: {'identifier': 'champ_base', 'rc': 0}
+[56.268323] (spotmicro_locomotion_ros2) JobStarted: {'identifier': 'spotmicro_locomotion_ros2'}
+[56.346856] (-) TimerEvent: {}
+[56.447247] (-) TimerEvent: {}
+[56.547686] (-) TimerEvent: {}
+[56.648133] (-) TimerEvent: {}
+[56.748583] (-) TimerEvent: {}
+[56.849078] (-) TimerEvent: {}
+[56.949526] (-) TimerEvent: {}
+[57.050028] (-) TimerEvent: {}
+[57.150453] (-) TimerEvent: {}
+[57.250916] (-) TimerEvent: {}
+[57.351386] (-) TimerEvent: {}
+[57.451862] (-) TimerEvent: {}
+[57.552505] (-) TimerEvent: {}
+[57.653467] (-) TimerEvent: {}
+[57.754263] (-) TimerEvent: {}
+[57.855033] (-) TimerEvent: {}
+[57.955811] (-) TimerEvent: {}
+[58.056958] (-) TimerEvent: {}
+[58.158310] (-) TimerEvent: {}
+[58.259590] (-) TimerEvent: {}
+[58.360159] (-) TimerEvent: {}
+[58.460618] (-) TimerEvent: {}
+[58.561074] (-) TimerEvent: {}
+[58.661488] (-) TimerEvent: {}
+[58.761980] (-) TimerEvent: {}
+[58.862458] (-) TimerEvent: {}
+[58.963136] (-) TimerEvent: {}
+[59.063558] (-) TimerEvent: {}
+[59.164118] (-) TimerEvent: {}
+[59.264706] (-) TimerEvent: {}
+[59.365681] (-) TimerEvent: {}
+[59.466177] (-) TimerEvent: {}
+[59.566882] (-) TimerEvent: {}
+[59.667378] (-) TimerEvent: {}
+[59.768085] (-) TimerEvent: {}
+[59.868695] (-) TimerEvent: {}
+[59.908537] (spotmicro_locomotion_ros2) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/sacad/spotmicro_ws/build/spotmicro_locomotion_ros2/build', '--no-deps', 'symlink_data'], 'cwd': '/home/sacad/spotmicro_ws/build/spotmicro_locomotion_ros2', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'sacad', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/sacad/spotmicro_ws/install/champ_base/lib:/home/sacad/spotmicro_ws/install/champ_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'WT_PROFILE_ID': '{61c54bbd-c2c6-5271-96e7-009a87ff44bf}', 'HOME': '/home/sacad', 'OLDPWD': '/home/sacad/spotmicro_ws/src', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'sacad', 'NAME': 'ASMECH', 'WSL_INTEROP': '/run/WSL/664_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/sacad/spotmicro_ws/install/champ_base/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/usr/lib/linux-tools/6.18.54.1-microsoft-standard-WSL2/bin:/mnt/c/Program Files/Eclipse Adoptium/jdk-17.0.16.8-hotspot/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/WSL/:/mnt/c/Users/sacad/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/sacad/AppData/Local/Python/bin:/snap/bin', 'WT_SESSION': '59146605-3dbe-47e3-a1c8-155b2d2d4747', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'PERF_EXEC_PATH': '/usr/lib/linux-tools/6.18.54.1-microsoft-standard-WSL2/libexec/perf-core', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/sacad/spotmicro_ws/install/champ_base:/home/sacad/spotmicro_ws/install/spotmicro_description:/home/sacad/spotmicro_ws/install/champ_msgs:/home/sacad/spotmicro_ws/install/champ:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/sacad/spotmicro_ws/build/spotmicro_locomotion_ros2', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/sacad/spotmicro_ws/build/spotmicro_locomotion_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sacad/spotmicro_ws/install/spotmicro_locomotion_ros2/lib/python3.12/site-packages:/home/sacad/spotmicro_ws/install/champ_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_sim_vendor/lib/python:/opt/ros/jazzy/opt/sdformat_vendor/lib/python:/opt/ros/jazzy/opt/gz_transport_vendor/lib/python:/opt/ros/jazzy/opt/gz_msgs_vendor/lib/python:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/sacad/spotmicro_ws/install/champ_base:/home/sacad/spotmicro_ws/install/spotmicro_description:/home/sacad/spotmicro_ws/install/champ_msgs:/home/sacad/spotmicro_ws/install/champ:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}), 'shell': False}
+[59.969122] (-) TimerEvent: {}
+[60.070047] (-) TimerEvent: {}
+[60.170544] (-) TimerEvent: {}
+[60.271052] (-) TimerEvent: {}
+[60.365913] (spotmicro_locomotion_ros2) StdoutLine: {'line': b'running develop\n'}
+[60.371636] (-) TimerEvent: {}
+[60.472124] (-) TimerEvent: {}
+[60.572967] (-) TimerEvent: {}
+[60.657353] (spotmicro_locomotion_ros2) StdoutLine: {'line': b'running egg_info\n'}
+[60.657690] (spotmicro_locomotion_ros2) StdoutLine: {'line': b'creating src/spotmicro_locomotion_ros2.egg-info\n'}
+[60.673134] (-) TimerEvent: {}
+[60.685792] (spotmicro_locomotion_ros2) StdoutLine: {'line': b'writing src/spotmicro_locomotion_ros2.egg-info/PKG-INFO\n'}
+[60.686455] (spotmicro_locomotion_ros2) StdoutLine: {'line': b'writing dependency_links to src/spotmicro_locomotion_ros2.egg-info/dependency_links.txt\n'}
+[60.686782] (spotmicro_locomotion_ros2) StdoutLine: {'line': b'writing entry points to src/spotmicro_locomotion_ros2.egg-info/entry_points.txt\n'}
+[60.687359] (spotmicro_locomotion_ros2) StdoutLine: {'line': b'writing requirements to src/spotmicro_locomotion_ros2.egg-info/requires.txt\n'}
+[60.687773] (spotmicro_locomotion_ros2) StdoutLine: {'line': b'writing top-level names to src/spotmicro_locomotion_ros2.egg-info/top_level.txt\n'}
+[60.688315] (spotmicro_locomotion_ros2) StdoutLine: {'line': b"writing manifest file 'src/spotmicro_locomotion_ros2.egg-info/SOURCES.txt'\n"}
+[60.752656] (spotmicro_locomotion_ros2) StdoutLine: {'line': b"reading manifest file 'src/spotmicro_locomotion_ros2.egg-info/SOURCES.txt'\n"}
+[60.753771] (spotmicro_locomotion_ros2) StdoutLine: {'line': b"writing manifest file 'src/spotmicro_locomotion_ros2.egg-info/SOURCES.txt'\n"}
+[60.773367] (-) TimerEvent: {}
+[60.783743] (spotmicro_locomotion_ros2) StdoutLine: {'line': b'running build_ext\n'}
+[60.783964] (spotmicro_locomotion_ros2) StdoutLine: {'line': b'Creating /home/sacad/spotmicro_ws/install/spotmicro_locomotion_ros2/lib/python3.12/site-packages/spotmicro-locomotion-ros2.egg-link (link to src)\n'}
+[60.784902] (spotmicro_locomotion_ros2) StdoutLine: {'line': b'Installing spotmicro_champ_bridge script to /home/sacad/spotmicro_ws/install/spotmicro_locomotion_ros2/lib/spotmicro_locomotion_ros2\n'}
+[60.786169] (spotmicro_locomotion_ros2) StdoutLine: {'line': b'\n'}
+[60.786341] (spotmicro_locomotion_ros2) StdoutLine: {'line': b'Installed /home/sacad/spotmicro_ws/build/spotmicro_locomotion_ros2/src\n'}
+[60.786766] (spotmicro_locomotion_ros2) StdoutLine: {'line': b'running symlink_data\n'}
+[60.787405] (spotmicro_locomotion_ros2) StdoutLine: {'line': b'creating /home/sacad/spotmicro_ws/install/spotmicro_locomotion_ros2/share/ament_index\n'}
+[60.787539] (spotmicro_locomotion_ros2) StdoutLine: {'line': b'creating /home/sacad/spotmicro_ws/install/spotmicro_locomotion_ros2/share/ament_index/resource_index\n'}
+[60.787990] (spotmicro_locomotion_ros2) StdoutLine: {'line': b'creating /home/sacad/spotmicro_ws/install/spotmicro_locomotion_ros2/share/ament_index/resource_index/packages\n'}
+[60.788878] (spotmicro_locomotion_ros2) StdoutLine: {'line': b'symbolically linking /home/sacad/spotmicro_ws/build/spotmicro_locomotion_ros2/resource/spotmicro_locomotion_ros2 -> /home/sacad/spotmicro_ws/install/spotmicro_locomotion_ros2/share/ament_index/resource_index/packages\n'}
+[60.789710] (spotmicro_locomotion_ros2) StdoutLine: {'line': b'symbolically linking /home/sacad/spotmicro_ws/build/spotmicro_locomotion_ros2/package.xml -> /home/sacad/spotmicro_ws/install/spotmicro_locomotion_ros2/share/spotmicro_locomotion_ros2\n'}
+[60.790523] (spotmicro_locomotion_ros2) StdoutLine: {'line': b'creating /home/sacad/spotmicro_ws/install/spotmicro_locomotion_ros2/share/spotmicro_locomotion_ros2/config\n'}
+[60.791200] (spotmicro_locomotion_ros2) StdoutLine: {'line': b'creating /home/sacad/spotmicro_ws/install/spotmicro_locomotion_ros2/share/spotmicro_locomotion_ros2/config/gait\n'}
+[60.791944] (spotmicro_locomotion_ros2) StdoutLine: {'line': b'symbolically linking /home/sacad/spotmicro_ws/build/spotmicro_locomotion_ros2/config/gait/gait.yaml -> /home/sacad/spotmicro_ws/install/spotmicro_locomotion_ros2/share/spotmicro_locomotion_ros2/config/gait\n'}
+[60.792654] (spotmicro_locomotion_ros2) StdoutLine: {'line': b'creating /home/sacad/spotmicro_ws/install/spotmicro_locomotion_ros2/share/spotmicro_locomotion_ros2/config/joints\n'}
+[60.793409] (spotmicro_locomotion_ros2) StdoutLine: {'line': b'symbolically linking /home/sacad/spotmicro_ws/build/spotmicro_locomotion_ros2/config/joints/joints.yaml -> /home/sacad/spotmicro_ws/install/spotmicro_locomotion_ros2/share/spotmicro_locomotion_ros2/config/joints\n'}
+[60.794221] (spotmicro_locomotion_ros2) StdoutLine: {'line': b'creating /home/sacad/spotmicro_ws/install/spotmicro_locomotion_ros2/share/spotmicro_locomotion_ros2/config/links\n'}
+[60.796315] (spotmicro_locomotion_ros2) StdoutLine: {'line': b'symbolically linking /home/sacad/spotmicro_ws/build/spotmicro_locomotion_ros2/config/links/links.yaml -> /home/sacad/spotmicro_ws/install/spotmicro_locomotion_ros2/share/spotmicro_locomotion_ros2/config/links\n'}
+[60.797929] (spotmicro_locomotion_ros2) StdoutLine: {'line': b'creating /home/sacad/spotmicro_ws/install/spotmicro_locomotion_ros2/share/spotmicro_locomotion_ros2/launch\n'}
+[60.798776] (spotmicro_locomotion_ros2) StdoutLine: {'line': b'symbolically linking /home/sacad/spotmicro_ws/build/spotmicro_locomotion_ros2/launch/spotmicro_champ_control.launch.py -> /home/sacad/spotmicro_ws/install/spotmicro_locomotion_ros2/share/spotmicro_locomotion_ros2/launch\n'}
+[60.842826] (spotmicro_locomotion_ros2) CommandEnded: {'returncode': 0}
+[60.857034] (spotmicro_locomotion_ros2) JobEnded: {'identifier': 'spotmicro_locomotion_ros2', 'rc': 0}
+[60.859803] (-) EventReactorShutdown: {}
